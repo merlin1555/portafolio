@@ -1,0 +1,8 @@
+# Exported from Render on 2024-05-06T07:39:43Z
+services:
+- type: web
+  name: portafoliomerlin
+  runtime: static
+  repo: https://github.com/merlin1555/portafolio
+  staticPublishPath: .
+version: "1"
