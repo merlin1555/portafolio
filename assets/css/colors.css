@@ -1,0 +1,93 @@
+/* ==============================================================================================================================================================================================
+** CSS Exclusivo para los colores del sitio
+** "norellana.laboratoriodiseno.cl".
+*/
+:root{
+	--negro_transparente: rgba(0, 0, 0, 0.5);
+    --blanco-1: #F1F1F1;
+	--blanco-2: #e3e3e3;
+	--negro-1: #0F0F0F;
+	--negro-2: #030202;
+	--negro-3: #1e1e1e;
+	--gris-1: #303030;
+}
+#modo_claro{
+	color: var(--negro-1);
+}
+/* ================================ Modo Oscuro ======================================== */
+/* Estilos para el modo Oscuro */
+body{
+    /*background-color: var(--negro-1);*/
+	background: linear-gradient(to bottom, #020107 0%, #201b46 100%);
+    color: var(--blanco-2);
+}
+nav{
+    background-color: var(--negro-1);
+    color: var(--blanco-2);
+}
+main{
+    background-color: var(--negro_transparente);
+    color: var(--blanco-2);
+}
+#evidencias{
+	background-color: var(--negro-1);
+}
+#biografia{
+	background-color: var(--negro-2);
+}
+.menu_principal a{
+    color: var(--blanco-2);
+}
+.menu_principal a::after{
+    background-color: var(--blanco-2);
+}
+nav{
+	box-shadow: 0px 4px 16px rgb(79, 79, 79, 0.2);
+}
+.circles li{
+    background: rgba(255, 255, 255, 0.2);
+}
+.lista_evidencias button{
+	background-color: transparent;
+	border: none;
+}
+.lista_evidencias li,
+.lista_evidencias button,
+.menu_social li{
+	color: var(--gris-1);
+}
+.lista_evidencias li:hover,
+.lista_evidencias button:hover,
+.menu_social li:hover{
+	color: var(--blanco-2);
+}
+.caja_desplegable{
+	background-color: var(--negro-3);
+}
+/* Estilos para el modo claro */
+.atardecer{
+	background: linear-gradient(to bottom, #ff7f50 0%, #ffb6c1 100%) !important;
+}
+.modo_claro{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+.fondo_claro{
+	background-color: rgb(255 255 255 / 50%) !important;
+    color: #000000 !important;
+}
+.modo_claro_fuente{
+    color: #000000 !important;
+}
+.modo_claro_sombra{
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2) !important;
+}
+.circles_modo_claro{
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+.link_modo_claro{
+	color: #9f9f9f !important;
+}
+.link_modo_claro:hover{
+	color: #000000 !important;
+}

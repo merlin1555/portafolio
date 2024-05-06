@@ -1,0 +1,33 @@
+/* ==============================================================================================================================================================================================
+** Estilos para Escritorio
+** (ancho mayor o igual a 1024px)
+*/
+@media screen and (min-width: 1024px) {
+	/* "Banner" del sitio */
+	.banner_principal,
+	.container{
+		min-height: 100vh;
+	}
+	/* Menu social */
+	.menu_social{
+		padding: 2% 5%;
+	}
+	.menu_social span{
+		display: none;
+	}
+}
+/* ==============================================================================================================================================================================================
+** Estilos para dispositivos Móviles
+** (ancho menor o igual a 1023px)
+*/
+@media screen and (max-width: 1023px) {
+	/* "Banner" del sitio */
+	.banner_principal,
+	.container{
+		min-height: 30vh;
+	}
+	/* Menu social */
+	.menu_social{
+		padding: 5%;
+	}
+}

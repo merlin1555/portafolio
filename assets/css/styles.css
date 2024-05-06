@@ -1,0 +1,148 @@
+/* ==============================================================================================================================================================================================
+** Css central para la identidad del sitio
+** "norellana.laboratoriodiseno.cl".
+** by: melrin
+** v2.0
+*/
+body{
+	font-family: "Platypi", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	transition: all 0.5s;
+}
+main{
+	transition: all 0.5s;
+	position: absolute;
+	z-index: 999;
+}
+ul{
+	list-style: none;
+}
+.container{
+	transition: all  3s;
+}
+/* ==============================================================================================================================================================================================
+** Menú Principal del sitio
+*/
+nav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.menu_principal{
+	display: flex;
+	align-items: center;
+	padding: 2% 5%;
+	margin: 0;
+	height: 10vh;
+}
+.menu_principal a{
+	text-decoration: none;
+	margin: 0 1em;
+}
+#modo_oscuro_btn{
+	margin-left: auto;
+	font-size: 150%;
+}
+#modo_oscuro,
+#modo_claro{
+	background-color: transparent;
+	border: none;
+}
+
+/* ==============================================================================================================================================================================================
+** Menú Contacto
+*/
+.lista_evidencias li,
+.menu_social li{
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.menu_social{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+.menu_social li{
+	width: 4.5em;
+	height: 3em;
+	margin: 0;
+	font-size: 150%;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+.menu_social i{
+	font-size: 150%; }
+/* ==============================================================================================================================================================================================
+** Secciones principales
+*/
+#biografia,
+#evidencias{
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#evidencias,
+#contacto{
+	text-align: center;
+}
+/* ==============================================================================================================================================================================================
+** Biografia
+*/
+#biografia{
+	padding: 10% 20%;
+}
+/* ==============================================================================================================================================================================================
+** Evidencias
+*/
+#evidencias{
+	padding: 10% 0;
+}
+.lista_evidencias li{
+	margin: 2em 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.lista_evidencias li,
+.lista_evidencias button{
+	transition: all 1s;
+	text-decoration: none;
+}
+/*
+.caja_desplegable{
+	padding: 2%;
+	display: flex;
+	width: 80vh;
+	border-radius: 5px;
+	display: none;
+}*/
+.caja_desplegable img{
+	width: 10em;
+}
+.contenido_caja_desplegable{
+	display: flex;
+	flex-direction: column;
+	padding: 3% 0 0 5%;
+}
+/* ==============================================================================================================================================================================================
+** Contacto
+*/
+#contacto{
+	padding: 10% 0;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* ==============================================================================================================================================================================================
+** Footer
+*/
+footer{
+	padding: 5%;
+}
