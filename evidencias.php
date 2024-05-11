@@ -14,7 +14,7 @@
                     <div class="contenido_caja_desplegable">
                         <h3>Título de Proyecto</h3>
                         <span>Descripción corta del proyecto</span>
-                        <a href="#" target="_blank">Link al proyecto</a>
+                        <a href="evidencias/evidencia" target="_blank">Link al proyecto</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <div class="contenido_caja_desplegable">
                         <h3>Aritos3D - Tienda virtual</h3>
                         <span>Descripción corta del proyecto</span>
-                        <a href="#" target="_blank">Link al proyecto</a>
+                        <a href="evidencias/aritos3d" target="_blank">Link al proyecto</a>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                     <div class="contenido_caja_desplegable">
                         <h3>Template de Wordpress - Liceo Carmen Arriaran</h3>
                         <span>Descripción corta del proyecto</span>
-                        <a href="#" target="_blank">Link al proyecto</a>
+                        <a href="evidencias/lcarmenarriaran" target="_blank">Link al proyecto</a>
                     </div>
                 </div>
             </div>

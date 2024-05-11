@@ -176,5 +176,11 @@ footer{
     height: 90vh;
 }
 .sitio_en_construccion img{
-    height: 20%;
+    height: 1em;
+	margin-left: 0.5em;
+}
+.sitio_en_construccion_titulo{
+	display: flex !important;
+	font-size: 250%;
+	font-weight: bolder;
 }
