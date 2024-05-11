@@ -31,8 +31,8 @@
 	width: 100%;
 }
 /* ================================ Caja desplegable ======================================== */
-.btn_cerrar {
-    transform: rotate(180deg);
+.boton_giratorio {
+    transition: transform 0.3s ease;
 }
 /* ============================================================================================
 ** Animaciones y Estilos para el Fondo de Cuadros Animados  

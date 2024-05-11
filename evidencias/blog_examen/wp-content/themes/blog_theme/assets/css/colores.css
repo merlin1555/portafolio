@@ -1,0 +1,121 @@
+/*	
+**	===========================================================
+**	Css para los colores del tema "blog_theme"
+**	v1.0
+**	=========================================================== 
+*/
+:root{
+	--negro_transparente: rgba(0, 0, 0, 0.6);
+	--fuente-principal: white;
+	--azul: #231E60;
+	--cyan: #14A7AD;
+	--celeste: #00C6DD;
+	--celeste-oscuro: #07AAFD;
+	--azul-claro: #4B5DFA;
+	--azul-oscuro: #101936;
+	--morado: #8E02FB;
+	--dorado: 	#D4AF37;
+	--gradiente-1: linear-gradient(to right, #00BEEB, #8709FB);
+	--gradiente-2: linear-gradient(to right, #1EBDAF, #6E45D7);
+	--gradiente-opacidad: 0.7;
+}
+body{
+	color: var(--fuente-principal);
+}
+.site-header,
+.site-info,
+.entrada_img,
+.orbita .entry-header,
+#comments .comment-list.comment-list .comment-meta{
+	background: linear-gradient(to top, var(--azul), var(--cyan));
+}
+.site-branding,
+#logros_contenedor,
+#comments .comment-list.comment-list .comment-meta{
+	border: solid 1px white;
+}
+.site-branding,
+.post-thumbnail,
+.orbita .entry-header .entradas_page_tittle,
+.logro,
+#logros_contenedor,
+.comment-list li{
+	background-color: var(--negro_transparente);
+}
+.logro_obtenido i,
+.logro_obtenido h6{
+	color: var(--dorado);
+}
+.logro{
+	border: solid 1px var(--azul-oscuro);
+}
+.logro_obtenido:hover{
+	border-color: var(--celeste);
+	box-shadow: 0 0 5px #fff;
+}
+.logro:hover .logros_descripccion{
+	color: var(--celeste) !important;
+}
+.content_panel .panel_box,
+.content_panel .logros_contenedor{
+	background: linear-gradient(to top, var(--azul), var(--cyan));
+}
+.content_panel .panel_box a{
+	color: white;
+}
+#comments a{
+	color: white;
+}
+#comments .comment-list.comment-list .reply a,
+.form-submit #submit{
+	background: linear-gradient(to top, var(--azul-claro), var(--cyan));
+	color: white;
+}
+#comments .comment-list.comment-list .reply a:hover,
+.form-submit #submit:hover{
+	background-color: white;
+	color: var(--azul);
+}
+#comments .comment-list.comment-list .comment-content{
+	border-bottom: solid 1px white;
+}
+.entradas_content_contenedor a{
+	color: var(--azul);
+}
+.entradas_content_contenedor a:hover{
+	color: var(--morado);
+}
+.entradas_content_contenedor,
+.content_panel,
+.inicio,
+#pantalla_oscura,
+#colophon{
+	background-color: rgba(0, 0, 0, 0.75);
+}
+.site-footer a{
+	color: var(--fuente-principal)
+}
+body a{
+	color: var(--morado)
+}
+.contenido_entrada a{
+	color: var(--fuente-principal);
+	background: linear-gradient(to right, var(--celeste), var(--celeste-oscuro));
+}
+.contenido_entrada a:hover{
+	background: linear-gradient(to right, var(--celeste), var(--morado));
+	color: white;
+	transition: all 0.5s;
+}
+#login_box,
+#register_box{
+	background-color: var(--azul-oscuro);
+}
+/* sombras */
+.logro,
+.site-header,
+.site-footer,
+.entrada_img,
+.entradas_content_contenedor{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

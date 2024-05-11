@@ -1,0 +1,83 @@
+/* ================================ Hover Line effect ======================================== */
+.footer_menu a,
+#site_nav .line_hover{
+	position: relative;
+	display: inline-block;
+}
+.footer_menu a::after,
+#site_nav .line_hover::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	transition: width 0.5s;
+    background-color: #153111;
+}
+.footer_menu a:hover::after,
+#site_nav .line_hover:hover::after{
+	width: 100%;
+}
+/* ================================ Fade In effect ======================================== */
+.fade-in-section {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.fade-in-section.fade-in{
+    opacity: 1;
+}
+/* ================================ Boton de whatsapp ======================================== */
+.whatsapp-button {
+	font-size: 150%;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #25d366;
+	color: white;
+	padding: 0.6em 1em;
+	border-radius: 100%;
+	text-decoration: none;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+	z-index: 9999; /* asegura que el botón esté por encima de otros elementos */
+}
+.whatsapp-button:hover {
+	background-color: #128c7e;
+}
+
+.container{
+	position: relative;
+	overflow: hidden;
+}
+  
+.slide-right{
+	position: relative;
+	left: -100%;
+	transition: left 0.5s ease-in-out;
+}
+  
+.slide-right.active{
+	left: 0;
+}
+/* ================================ Boton volver arriba ======================================== */ 
+#btnVolverArriba {
+    display: none; /* El botón estará oculto inicialmente */
+    position: fixed; /* Se mantendrá en la misma posición incluso cuando la página se desplace */
+    bottom: 20px; /* Posición desde la parte inferior */
+    left: 20px; /* Posición desde la izquierda */
+    font-size: 24px; /* Tamaño de fuente del botón */
+    background-color: var(--verde-mas-oscuro);
+    color: #ffffff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Forma circular */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    z-index: 9999; /* Asegura que esté sobre otros elementos */
+	padding: 0;
+}
+
+#btnVolverArriba:hover {
+    background-color: var(--verde)
+}

@@ -25,7 +25,7 @@
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 <link rel="stylesheet" type="text/css" href="assets/css/effects.css">
-<link rel="stylesheet" type="text/css" href="assets/css/efectos.css">
+<link rel="stylesheet" type="text/css" href="assets/css/estrellas.css">
 <link rel="stylesheet" type="text/css" href="assets/css/colors.css">
 
 <!-- Codigos jquery -->
@@ -33,8 +33,6 @@
 
 <!-- Codigos js -->
 <script src="assets/js/scripts.js"></script>
-
-<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
 <style>
   #stars,

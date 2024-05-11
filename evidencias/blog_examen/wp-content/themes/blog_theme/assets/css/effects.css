@@ -1,0 +1,179 @@
+/*	
+**	==========================================================
+**	Css para el tema "norellana"
+**	v1.0
+**	==========================================================
+*/
+/* =========================================================== */
+:root{
+	--negro_transparente: rgba(0, 0, 0, 0.5);
+	--color_1: white;
+
+	/* effectos sistema solar */
+	--sun-top: 50vh;
+	--sun-left: 48vw;
+	--sun-radius: 1rem;
+
+	--orbita-width: 6em;
+	--orbita-heigth: 6em;
+}
+/*	Hover Line	========================================== */
+.hover_line,
+#site-navigation #mega-menu-menu-1 .mega-menu-item{
+	position: relative !important;
+	display: inline-block !important;
+}
+.hover_line::after,
+#site-navigation #mega-menu-menu-1 .mega-menu-item::after{
+	content: '' !important;
+	position: absolute !important;
+	left: 0 !important;
+	bottom: 4px !important;
+	width: 0 !important;
+	height: 2px !important;
+	background-color: white !important;
+	transition: width 0.5s !important;
+}
+.hover_line:hover::after,
+#site-navigation #mega-menu-menu-1 .mega-menu-item:hover::after{
+	width: 100% !important;
+}
+/* Sparkle effect	=========================================================== */
+.sparkle{
+	width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(94 94 94 / 50%) 0%, rgb(255 255 255 / 20%) 100%);
+    box-shadow: 0 0 20px #fff;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0.8em;
+    animation: sparkle 2s infinite;
+}
+.sparkle_effect{
+	color: transparent;
+}
+.sparkle i{
+	animation: rotatePlanet 50s infinite;
+	font-size: 50%;
+}
+@keyframes sparkle {
+	0% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0.5;
+	}
+	100% {
+	  opacity: 1;
+	}
+}
+@keyframes rotatePlanet {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* Planets effect	=========================================================== */
+.entrada{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entrada:hover{
+	background-image: url("https://norellana.laboratoriodiseno.cl/examen/wp-content/uploads/2023/12/planeta_bg.png");
+	background-position: center center;
+	background-size: cover;
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 100%;
+	z-index: 999999;
+
+	box-shadow: 0 0 20px #fff;
+	animation: rotatePlanet 50s infinite;
+}
+.entrada:hover i{
+	display: none;
+}
+.planeta_entrada{
+	background-image: url("https://services.meteored.com/img/article/brasileiro-envolvido-em-pesquisa-que-indica-existencia-de-novo-planeta-no-sistema-solar-1698530712737_1280.png");
+	background-position: center;
+	background-size: cover;
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+    position: absolute;
+	top: -0.5em;
+	animation: rotatePlanet 50s infinite;
+	box-shadow: 0 0 10px #fff;
+}
+.estrellas_container .entrada:hover .nombre_entrada{
+	display: block;
+}
+.estrellas_container .nombre_entrada{
+    display: none;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+	background-color: rgb(0 0 0 / 80%);
+    padding: 0.3em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	box-shadow: 0 0 20px #fff;
+	padding-left: 2em;
+	margin-left: -1em;
+	transition: opacity 1s ease-in-out;
+}
+.planeta{
+	max-width: 32em !important;
+	display: flex;
+	align-items: center;
+	height: 3em;
+	border-radius: 50px 0 0 50px;
+	transition: all 1s;
+}
+#planeta-1{
+	position: absolute;
+    top: 35% !important;
+    left: 50% !important;
+}
+body {
+	background-image: url("../img/bg-spore-3.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*animation: girar-fondo 10s infinite linear;*/ /* ajusta la duración y la repetición según tus necesidades */
+  }
+  
+@keyframes girar-fondo {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+}
+#estrellas_container,
+.planeta,
+.nombre_entrada{
+	transition: all 1s;
+}
+.entrada,
+.sparkle{
+	transition: all 0.1s;
+}
+.entrada{
+	height: 100% ;
+}
+.sparkle_effect{
+	height: 100%;
+    width: 3em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+

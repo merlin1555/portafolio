@@ -1,0 +1,41 @@
+/*	
+**	==========================================================
+**	Css para el tema "norellana"
+**	v1.0
+**	==========================================================
+*/
+/* =========================================================== */
+:root{
+	--negro_transparente: rgba(0, 0, 0, 0.5);
+	--color_1: #d8ccb2;
+	--color_2: #ccbd9e;
+	--color_3: #6174aa;
+	--color_4: #312853;
+	--color_5: #260729;
+}
+/* ==	Hover Line	========================================== */
+header h1 a,
+header h2 a,
+aside li a{
+	position: relative;
+	display: inline-block;
+}
+header h1 a::after,
+header h2 a::after,
+aside li a::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 4px;
+	width: 0;
+	height: 2px;
+	background-color: var(--color_3);
+	transition: width 0.5s;
+}
+header h1 a:hover::after,
+header h2 a:hover::after,
+aside li a:hover::after{
+	width: 100%;
+}
+/* =========================================================== */
+/* =========================================================== */

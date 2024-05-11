@@ -5,8 +5,8 @@
         <li id="menu_item"><a href="#">Item 3</a></li>
         <li id="menu_cont"><a href="#contacto">Contacto</a></li>
         <li id="modo_oscuro_btn">
-            <button id="modo_claro"><i class="fa-solid fa-moon"></i></button>
-            <button id="modo_oscuro"><i class="fa-solid fa-sun"></i></button>
+            <button id="modo_claro"><img src="assets/img/icons/moon.webp" alt=""></button>
+            <button id="modo_oscuro"><img src="assets/img/icons/sun.webp" alt=""></button>
         </li>
 	</ul>
 </nav>

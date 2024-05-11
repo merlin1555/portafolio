@@ -1,0 +1,278 @@
+/* Estilos Generales para el sitio */
+
+body{
+    margin: 0;
+    font-family: "Questrial", sans-serif;
+}
+button{
+    border-radius: 35px;
+    padding: 0.5em 2em;
+    transition: all 0.3s;
+}
+.idioma_img,
+.idioma_btn img{
+    width: 1.2em;
+    height: auto;
+}
+h1{
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+h3{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    transition: all 0.3s;
+}
+li{
+    list-style: none;
+}
+
+.section_container p,
+.section_container_2 p{
+    text-align: justify;
+}
+/* Estilos para el Header */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.header_top{
+    padding: 0.1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.header_top_menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.header_top_menu li{
+    margin: 0 0.5em;
+}
+.header_top_menu i{
+    margin-right: 0.3em;
+}
+header .navbar_custom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+#site_nav,
+.social_links{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+#site_nav{
+    width: 100%;
+    justify-content: end;
+    padding-right: 1em;
+}
+#site_nav li{
+    margin-left: 1em;
+}/*
+header .idioma_btn{
+    padding: 0.8em 0.4em !important;
+    border-radius: 100% !important;
+    margin-left: 0.5em !important;
+    border: none;
+}*/
+.idioma .dropdown-menu{
+    min-width: 3em;
+    flex-direction: column;
+    justify-content: center;
+}
+header .social_links li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .idioma_btn,
+header .social_links .btn_social_link{
+    padding: 0;
+    border-radius: 100%;
+    margin-left: 0.5em;
+    width: 3em !important;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.site_logo{
+    border-radius: 100%;
+    height: 3em;
+    width: 3em;
+    font-weight: bolder;
+}
+
+/* Estilos para el Footer */
+.text_justify{
+    text-align: justify;
+    padding-left: 0.7em;
+}
+footer .social_links a{
+    font-size: 200%;
+    margin-left: 0.5em;
+}
+#copyright{
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright p{
+    margin-bottom: 0;
+    padding-left: 0.2em;
+}
+#copyright img{
+    width: 1.5em;
+    height: 1.5em;
+}
+.footer_logo{
+    border-radius: 100%;
+    width: 3em;
+    font-weight: bolder;
+}
+.footer_logo_link span{
+    font-size: 350%;
+}
+.footer_logo_link img{
+    font-size: 150%;
+    margin-right: 0.3em;
+}
+.footer_logo_link{
+    display: flex;
+    align-items: center;
+}
+.footer_title{
+    font-size: 150%;
+    font-weight: bolder;
+}
+/* NOSOTROS */
+.text_start{
+    text-align: start !important;
+}
+.quienes_somos_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quienes_somos_img img{
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+}
+.section_container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#que_es_el_pla_2 img,
+#por_que_elegir_bioplast img,
+#como_lo_hacemos img,
+#que_ofrecemos img,
+#por_que_elegir_bioplast_2 img{
+    border-radius: 5%;
+}
+.card_logo{
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+}
+.card_logo span{
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CATALOGO */
+#catalogo{
+    /*display: none;*/
+    text-align: center;
+}
+/* CONTACTO */
+#contacto{
+    justify-content: center;
+}
+#contacto form,
+#contacto input,
+#contacto textarea{
+    width: 100%;
+}
+#contacto div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#contacto button{
+    margin-top: 1em;
+}
+.ley_rep_img{
+    display: flex;
+    flex-direction: column !important;
+}
+/* nuevo banner */
+.banner2,
+.banner4{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner1,
+.banner3{
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.banner1{
+    background-image: url("../img/banner/banner1.jpg");
+}
+.banner2{
+    background-image: url("../img/banner/banner2.jpg");
+}
+.banner3{
+    background-image: url("../img/banner/banner3.jpg");
+}
+.banner4{
+    background-image: url("../img/banner/banner4.jpg");
+}
+.carousel-item{
+    height: 60vh !important;
+}
+.carousel-inner div{
+    left: 0 !important;
+    width: 100%;
+}
+.carousel-caption button{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.carousel-caption .contactenos_btn{
+    margin-right: 1em;
+}
+.carousel-caption h2{
+    font-weight: bolder;
+    margin-bottom: 0.1em;
+}
+.carousel-caption h3{
+    font-weight: normal;
+    margin-bottom: 0.1em;
+}
+.carousel-caption h4{
+    font-weight: lighter;
+}

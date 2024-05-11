@@ -1,0 +1,219 @@
+/*	
+**	===========================================================
+**	Css para el tema "norellana"
+**	v1.0
+**	=========================================================== 
+*/
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+main{
+	min-height: 80vh;
+	padding: 2em;
+	text-align: justify;
+	text-justify: inter-word;
+}
+a{
+	text-decoration: none;
+	transition: all 0.5s;
+}
+/* Ultima entrada */
+.ultima_entrada header,
+.ultima_entrada img,
+.listado_entradas img,
+.type-post img{
+	border-radius: 15px 15px 0 0;
+}
+.ultima_entrada article{
+	box-shadow: -1px 2px 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	padding: 1em;
+}
+.ultima_entrada .entry-title{
+    margin-top: 1em;
+}
+.ultima_entrada .entry-content{
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* Entradas anteriores */
+.listado_entradas article{
+	box-shadow: -1px 2px 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+.listado_entradas img{
+	margin-bottom: 1em;
+    height: auto;
+    width: 100%;
+}
+.listado_entradas article:first-child{
+	display: none;
+}
+.listado_entradas header{
+	padding: 1em !important;
+}
+.listado_entradas .entry-content{
+	padding: 0 1em;
+	margin: 0;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.listado_entradas h2 a{
+	text-align: start;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.listado_entradas{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
+/* =========================================================== */
+/* ==	Navegación de Páginas	============================== */
+.pagination{
+	margin: -1% 0;
+	padding: 2em;
+	display: block;
+}
+.pagination h5{
+	margin-bottom: 1em;
+}
+.pagination nav{
+	width: 100%;
+}
+.pagination .nav-links{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.pagination a{
+	border-style: solid;
+	border-width: 1px;
+	padding: 0.8em;
+	border-radius: 25px;
+}
+/* =========================================================== */
+/* ==	Páginas	============================================== */
+.type-post h1{
+	margin-top: 1em;
+}
+/* =========================================================== */
+/* ==	Search	============================================== */
+.search_container{
+	width: 100%;
+}
+.search_results{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.search_results article{
+	width: 48%;
+	padding: 3em 1em;
+	box-shadow: -1px 2px 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+.search_results h2 a{
+	text-align: start;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.search_results .entry-summary{
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.search_results .byline,
+.search_results .entry-footer{
+	display: none;
+}
+/* =========================================================== */
+/* ==	Sidebar	============================================== */
+aside ul{
+	margin-left: 0;
+}
+.wp-block-latest-posts__list li{
+	margin-bottom: 0.8em;
+}
+/* =========================================================== */
+/* ==	Header	============================================== */
+header{
+	min-height: 10vh;
+}
+#masthead{
+	background-image: url(../img/banner_portfolio.png);
+	background-position: center;
+	background-size: cover;
+	padding: 5em 2em 1em 2em;
+}
+/* =========================================================== */
+/* ==	Footer	============================================== */
+footer{
+	margin-top: -1%;
+	min-height: 10vh;
+	padding: 1em 2em 2em 2em;
+	margin-bottom: 2em;
+	border-radius: 0 0 5px 5px;
+}
+/* =========================================================== */
+/* ==	not-found	============================================== */
+.no-results .page-content,
+.not-found .page-content{
+	display: flex;
+}
+/* =========================================================== */
+/* =========================================================== */
+
+@media screen and (min-width: 992px){
+	.col_full,main,footer,.site_nav{
+		margin-left: 8em;
+		margin-right: 8em;
+	}
+	.site-main{
+		display: flex;
+	}
+	.listado_entradas,
+	.listado_entradas a{
+		font-size: 80% !important;
+	}
+	.listado_entradas article{
+		width: 48% !important;
+		height: 25em;
+	}
+	/* ==	Sidebar	============================================== */
+	aside{
+		margin-left: 2em;
+	}
+}
+@media screen and (max-width: 991px){
+	.col_full,main,footer,.site_nav{
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+	.listado_entradas,
+	.listado_entradas a{
+		font-size: 80% !important;
+	}
+	.listado_entradas article{
+		width: 100% !important;
+		margin-right: 1%;
+	}
+	.entry-meta{
+		display: flex;
+	}
+}

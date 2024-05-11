@@ -1,0 +1,31 @@
+/*	
+**	===========================================================
+**	Css para el tema "norellana"
+**	v1.0
+**	=========================================================== 
+*/
+:root{
+	--negro_transparente: rgba(0, 0, 0, 0.5);
+	--color_1: #d8ccb2;
+	--color_2: #ccbd9e;
+	--color_3: #6174aa;
+	--color_4: #312853;
+	--color_5: #260729;
+	--color_fondo: #23363B;
+	--verde_principal: #2A5147;
+}
+body{
+	background-color: var(--color_fondo);
+    color: var(--color_5);
+}
+main,footer,.pagination{
+	background-color: white;
+}
+a,
+.pagination a{
+	color: var(--color_4);
+}
+a:hover,
+.pagination a:hover{
+    color: var(--color_3);
+}

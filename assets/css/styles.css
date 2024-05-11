@@ -18,8 +18,8 @@ main{
 ul{
 	list-style: none;
 }
-.container{
-	transition: all  3s;
+a{
+	text-decoration: none;
 }
 /* ==============================================================================================================================================================================================
 ** Menú Principal del sitio
@@ -49,8 +49,15 @@ nav{
 #modo_claro{
 	background-color: transparent;
 	border: none;
+	display: flex;
+	align-items: center;
 }
-
+#modo_oscuro img{
+	width: 1.5em;
+}
+#modo_claro img{
+	width: 1em;
+}
 /* ==============================================================================================================================================================================================
 ** Menú Contacto
 */
@@ -58,6 +65,9 @@ nav{
 .menu_social li{
 	transition: all 0.5s;
 	cursor: pointer;
+}
+.lista_evidencias p{
+	align-items: center;
 }
 .menu_social{
 	display: flex;
@@ -123,13 +133,21 @@ nav{
 	border-radius: 5px;
 	display: none;
 }*/
+.caja_desplegable{
+	width: 80vh;
+	display: flex;
+}
 .caja_desplegable img{
 	width: 10em;
 }
 .contenido_caja_desplegable{
+	text-align: start;
 	display: flex;
 	flex-direction: column;
-	padding: 3% 0 0 5%;
+	padding: 3% 0 3% 5%;
+}
+.contenido_caja_desplegable a{
+	margin-top: auto;
 }
 /* ==============================================================================================================================================================================================
 ** Contacto
@@ -145,4 +163,18 @@ nav{
 */
 footer{
 	padding: 5%;
+}
+/* ==============================================================================================================================================================================================
+** Sitio en construccion
+*/
+.sitio_en_construccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+.sitio_en_construccion img{
+    height: 20%;
 }

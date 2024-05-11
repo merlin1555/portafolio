@@ -1,0 +1,495 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.site-branding{
+	padding: 1em 2em;
+}
+.site-footer{
+	margin-top: -0.01em;
+	display: none;
+}
+.site-info{
+	border-radius: 0 10px 0 0;
+	opacity: 0.85;
+}
+#masthead{
+	margin: 1em 1em 0 1em;
+	border-radius: 10px;
+}
+.site-branding{
+	border-radius: 5px;
+}
+.site-header{
+	padding: 0.5em;
+}
+.site-main{
+	margin-top: 0 !important;
+	min-height: 85vh;
+}
+/* =======================================================================================================================
+** Header
+*/
+#site-navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.login-remember{
+	display: none !important;
+}
+.sesion_box span{
+	margin-left: 1em;
+}
+#register_box{
+	display: none;
+	position: absolute;
+	right: 2em;
+	top: 4.8em;
+	padding: 1em;
+	border-radius: 0 0 10px 10px;
+}
+#login_box{
+	display: none;
+	position: absolute;
+	right: 2em;
+	top: 4.8em;
+	padding: 1em;
+	border-radius: 0 0 10px 10px;
+}
+#login_box div:nth-child(1),
+#register_box div:nth-child(1){
+	display: flex;
+	justify-content: end;
+	margin-bottom: 1em;
+}
+#loginform p{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0;
+}
+.register_form{
+	display: flex;
+	flex-direction: column;
+}
+.login-form input{
+	margin-bottom: 0.5em !important;
+}
+.entrada_close_button,
+.close_button,
+.login_button,
+.register_button,
+.account_button,
+.logro{
+	cursor: pointer;
+}
+/* =======================================================================================================================
+** body
+*/
+#page{
+	min-height: 100vh !important;
+	position: relative;
+}
+.page{
+	margin-bottom: 0 !important;
+}
+.orbita{
+	min-height: 83vh;
+}
+.orbita .entry-header{
+    padding: 0.5em;
+    border-radius: 10px;
+	margin-left: auto;
+	margin-top: 0.5em !important;
+}
+.orbita .entry-header .entradas_page_tittle{
+    padding: 0.3em;
+	margin: 0 !important;
+	border-radius: 10px;
+}
+.entradas_content.post{
+	margin-bottom: 0;
+	height: 100%;
+	min-height: 100vh;
+}
+.content_panel .entry-title{
+	margin-top: 1em;
+}
+.inicio,
+.content_panel{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2em;
+	min-height: 100vh;
+}
+#logros_contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	padding: 0.5em;
+	border-radius: 10px;
+}
+.inicio{
+	text-align: center;
+}
+.logro{
+	font-size: 80%;
+	padding: 0.5em;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 0.5em;
+	text-align: center;
+	padding-top: 2em;
+	opacity: 0.5;
+}
+.logro_obtenido{
+	opacity: 1 !important;
+}
+.logro_contenedor{
+	width: 100% !important;
+}
+.obtenido{
+	background-color: blueviolet !important;
+}
+#pantalla_oscura{
+	position: absolute;
+    width: 100%;
+    height: 101vh;
+    display: none;
+    top: 0;
+    left: 0;
+}
+/* z-index */
+#pantalla_oscura{
+	z-index: 999998;
+}
+#masthead{
+	z-index: 999999;
+	position: sticky;
+}
+.contenido_entrada{
+	z-index: 999999;
+}
+#login_box{
+	z-index: 999999;
+}
+/* =======================================================================================================================
+** Estilos para las Entradas del Inicio
+*/
+.contenido_entrada{
+	background-color: rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 20px #fff;
+	color: white;
+    min-height: 30vh;
+    position: relative;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding: 1em;
+}
+.contenido_entrada div:nth-child(1){
+	display: flex;
+	justify-content: end;
+}
+.box_entrada{
+	display: none;
+}
+.contenido_entrada a{
+	border-radius: 50%;
+	padding: 1em;
+	height: 3em;
+	width: 3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.header_entrada{
+	width: 100%;
+	display: flex;
+	justify-content: end;
+}
+.entrada_texto{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.entrada_texto p,
+.entrada_texto h2,
+.entrada_texto ul,
+.entrada_texto ol,
+.entrada_texto img{
+	display: none;
+}
+.entrada_texto p:nth-child(1){
+	display: block;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 3;
+}
+.secciones_entrada{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.secciones_entrada div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.secciones_entrada div:nth-child(3){
+	flex-direction: column;
+}
+.contenido_entrada_texto{
+	display: flex;
+	flex-direction: column;
+}
+.contenido_entrada_texto .nombre_entrada{
+	box-shadow: none !important;
+	background-color: transparent !important;
+	display: block !important;
+	padding: 0 !important;
+	margin-bottom: 0.5em !important;
+}
+/* =======================================================================================================================
+** Estilos para las Entradas (Content)
+*/
+.entrada_img i{
+	position: absolute;
+    transform: rotate(45deg);
+}
+.entrada_img{
+	overflow: hidden;
+	max-height: 20em;
+	border-radius: 10px;    
+	width: 16em;
+    margin-left: auto;
+	padding: 0.7em;
+}
+.entrada_img .post-thumbnail {
+    overflow: hidden;
+    padding: 0.4em;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+.entrada_img .post-thumbnail img{
+	border-radius: 5px;
+}
+.entrada_img img{
+	width: 100%;
+}
+.entradas_content{
+	background-image: url("../img/bg_new_world.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1em 3em 0em 1em;
+	margin-top: -7em;
+}
+.entradas_content_contenedor{
+	padding: 1em;
+	border-radius: 10px;
+}
+.entradas_content_contenedor a{
+	transition: all 0.5s;
+}
+.content_panel .panel_box{
+	padding: 1em;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.content_panel .panel_box form{
+	display: flex;
+	flex-direction: column;
+}
+.content_panel .panel_box form #contrasena{
+	margin-bottom: 1em;
+}
+.content_panel .logros_contenedor{
+	padding: 1em;
+	border-radius: 10px;
+}
+.content_panel .entry-content{
+	display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* comentarios */
+#comments{
+	border-radius: 10px;
+	padding: 1em;
+}
+#comments #reply-title,
+#comments .comments-title,
+#comments .required-field-message{
+	display: none;
+}
+#comments .logged-in-as{
+	display: flex;
+	flex-direction: column;
+}
+#comments .comment-metadata{
+	font-size: 50%;
+}
+/*
+#comments a{
+	text-decoration: none;
+}*/
+#comments ol{
+	margin: 0 !important;
+	padding: 0 !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.comment-list li{
+	border-radius: 10px;
+	margin: 0.5em 0;
+}
+#comments .comment-list.comment-list .comment-meta{
+	padding: 0.5em 0.5em 0 0.5em;
+	border-radius: 10px 10px 0 0;
+}
+#comments .comment-list.comment-list .comment-meta .comment-metadata{
+	margin-top: 1em;
+}
+#comments .comment-list.comment-list .comment-meta img{
+	border-radius: 50%;
+}
+#comments .comment-list.comment-list .comment-content{
+	padding: 0.5em 1em;
+}
+#comments .comment-list.comment-list .reply{
+	font-size: 80%;
+	padding: 1em;
+}
+.form-submit #submit,
+#comments .comment-list.comment-list .reply a{
+	padding: 0.5em;
+	border-radius: 5px;
+	margin: 0.1em;
+	text-decoration: none;
+	border: none;
+	transition: all 0.5s
+}
+#comments .children{
+	margin: 1em !important;
+}
+#comments #respond{
+	padding: 2em;
+}
+/*
+.estrellas_container article:nth-child(8){
+	top: 80vh !important;
+}*/
+@media screen and (min-width: 783px){
+	#masthead{
+		width: 40vw;
+	}
+	/*.site-footer*/
+	.site-info{
+		width: 50vw;
+	}
+	.orbita .entry-header{
+		width: 55%;
+	}
+	.planeta_entrada{
+		height: 16em;
+		width: 16em !important;
+	}
+	.contenido_entrada{
+		width: 50vw;
+		left: 25vw;
+		top: 16vh;
+	}
+	.secciones_entrada div{
+		width: 30%;
+	}
+	.header_entrada{
+		margin-bottom: auto;
+	}
+	.content_panel .entry-content div{
+		width: 60%;
+	}
+	#logros_contenedor div{
+		width: 23%;
+		min-height: 50%;
+	}
+}
+@media screen and (max-width: 782px){
+	#masthead{
+		width: 90vw;
+	}
+	/*.site-footer*/
+	.site-info{
+		width: 90vw;
+	}
+	.orbita .entry-header{
+		width: 90%;
+	}
+	.planeta_entrada{
+		height: 6em;
+		width: 6em !important;
+	}
+	.contenido_entrada{
+		width: 90vw;
+		left: 5vw;
+		top: 6vh;
+	}
+	.secciones_entrada{
+		flex-direction: column;
+	}
+	.secciones_entrada div{
+		width: 100%;
+	}
+	.estrellas_container .nombre_entrada{
+		text-align: center;
+	}
+	.header_entrada{
+		margin-bottom: 6em;
+	}
+	.content_panel .entry-content div{
+		width: 80%;
+	}
+	#logros_contenedor div{
+		width: 48%;
+		min-height: 50%;
+	}
+	.site-info{
+		padding: 0.5em;
+	}
+	.orbita .entry-header{
+		position: absolute !important;
+		bottom: 5em;
+	}
+	#planeta-12{
+		margin-top: -4em;
+	}
+	#planeta-13{
+		margin-top: -6em;
+	}
+	.inicio{
+		padding: 2em;
+	}
+	#mega-menu-menu-1{
+		width: 32vw !important;
+	}
+	.entradas_content_contenedor .entry-header{
+		margin-top: 2em;
+	}
+	.entradas_content_contenedor ol{
+		margin-left: 0;
+		font-size: 90%;
+	}
+}

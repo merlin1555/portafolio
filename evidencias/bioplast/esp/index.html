@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="merlin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioPlast</title>
+
+    <link rel="icon" href="../assets/img/logo/favicon.png" type="image/png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <!-- Fonts Awesome -->
+    <script src="https://kit.fontawesome.com/675de1f9fe.js" crossorigin="anonymous"></script>
+
+    <!-- Css Locales  -->
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/colors.css">
+    <link rel="stylesheet" href="../assets/css/effects.css">
+
+    <!-- Jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- Scripts Locales  -->
+    <script src="../assets/js/scripts.js"></script>
+
+</head>
+<body>
+<header>
+    <!-- IDIOMA -->
+    <div class="header_top">
+        <ul class="header_top_menu">
+            <li><i class="fa-brands fa-whatsapp"></i> +56 9 3087 2819</li>
+            <li><i class="fa-solid fa-envelope"></i> ventas@bio-plast.cl</li>
+            <li><i class="fa-regular fa-clock"></i> 9:00AM - 5:00PM</li>
+        </ul>
+    </div>
+<!-- HEADER -->
+    <div class="navbar_escritorio">
+        <div class="navbar_custom">
+            <a class="navbar-brand" href="index.html"><img src="../assets/img/logo/bioplast_1.png" alt="logo" class="site_logo"> <span class="site_logo">BioPlast</span></a>
+            <ul id="site_nav">
+                <li><a class="line_hover" href="#quienes_somos">Sobre Nosotros</a></li>
+                <li>|</li>
+                <li><a class="line_hover" href="../assets/doc/Catalogo_Verano-2024-2025_V1.pdf" target="_blank">Catálogo</a></li>
+                <li>|</li>
+                <li class="nav-item dropdown line_hover">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ley Rep
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="pla.html">Ley Rep</a></li>
+                      <li><a class="dropdown-item" href="pla.html#que_es_el_pla">¿Qué es el PLA?</a></li>
+                    </ul>
+                </li>
+                <!-- <li><a href="pla.html">¿Qué es el PLA?</a></li> -->
+                <!--
+                <li>|</li>
+                <li><a href="contacto.html">Contacto</a></li>   -->
+            </ul>
+            <ul class="social_links">
+                <!--
+                <li class="idioma">
+                    <div class="dropdown">
+                        <button class="idioma_btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../assets/img/icons/espana.png" alt="">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><img class="idioma_img" src="../assets/img/icons/espana.png" alt=""></a></li>
+                            <li><a class="dropdown-item" href="../eng/index.html"><img class="idioma_img" src="../assets/img/icons/estados-unidos.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </li>
+                -->
+            </ul>
+        </div>
+    </div>
+    
+    <div class="navbar_movil">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="../assets/img/logo/bioplast_1.png" alt="logo" class="site_logo"> <span class="site_logo">BioPlast</span></a>
+                <!--
+                <div class="dropdown idioma">
+                    <button class="idioma_btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../assets/img/icons/espana.png" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"><img class="idioma_img" src="../assets/img/icons/espana.png" alt=""></a></li>
+                    <li><a class="dropdown-item" href="../eng/"><img class="idioma_img" src="../assets/img/icons/estados-unidos.png" alt=""></a></li>
+                    </ul>
+                </div>
+                -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li><a href="#quienes_somos">Sobre Nosotros</a></li>
+                        <li><a href="../assets/doc/Catalogo_Verano-2024-2025_V1.pdf" target="_blank">Catálogo</a></li>
+                        <li class="nav-item dropdown line_hover">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ley Rep
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pla.html">Ley Rep</a></li>
+                              <li><a class="dropdown-item" href="pla.html#que_es_el_pla">¿Qué es el PLA?</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li><a href="pla.html">¿Qué es el PLA?</a></li> -->
+                        <!--
+                        <li><a href="contacto.html">Contacto</a></li>   -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+</header>   <!-- HEADER -->
+
+<!-- CONTENIDO DEL SITIO -->
+
+<!-- BANNER -->
+<section id="banner">
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <!--
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+    </div>
+    <div class="carousel-inner">
+        <div class="banner1 carousel-item active">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Se Parte del Cambio con EcoPioneros</h2>
+                <h3>Únete a nuestro programa EcoPioneros</h3>
+                <h4>Sé parte de la revolución en envases biodegradables. ¡Regístrate para conocer más!</h4>
+                <article class="banner_buttons"><button><a href="https://forms.gle/RGiLNT2BtmMFduyFA" target="_blank">Participa Aquí</a></button></article>
+            </div>
+        </div>
+		<div class="banner2 carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Conoce a BioPlast</h2>
+                <h3>Aprende más sobre nuestra misión de innovar</h3>
+                <h4>en el mundo de los plásticos biodegradables y nuestra visión para un futuro sostenible.</h4>
+                <article class="banner_buttons"><button><a href="#quienes_somos">Más Sobre Nosotros</a></button></article>
+            </div>
+		</div>
+		<div class="banner3 carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Explora Nuestro Catálogo</h2>
+                <h3>Descubre nuestra gama de productos</h3>
+                <h4>sostenibles que combinan calidad y responsabilidad ambiental.</h4>
+                <article class="banner_buttons"><button><a href="../assets/doc/Catalogo_Verano-2024-2025_V1.pdf" target="_blank">Ver Catálogo</a></button></article>
+            </div>
+		</div>
+    <!--
+        <div class="banner4 carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Estamos Aquí para Ayudarte</h2>
+                <h3>¿Tienes preguntas o necesitas más información?</h3>
+                <h4>Contáctanos y estaremos encantados de asistirte.</h4>
+                <div class="banner_buttons"><button class="contactenos_btn"><a href="#footer">Contáctanos</a></button><button><a href="#que_es_el_pla">Contactar</a></button></div>
+            </div>
+		</div>
+    -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</section>  <!-- BANNER -->
+
+
+<!-- Quienes somos -->
+<section id="quienes_somos" class="section_container fade-in-section">
+    <article>
+       <h2>¿Quienes Somos?</h2>
+        <p class="text_start"><b>Conoce BioPlast:</b> Innovadores en Plásticos Biodegradables.</p>
+        <p>
+           Inspirados por generaciones de experiencia, hemos dado un giro hacia la sostenibilidad con nuestra línea de productos biodegradables.<br></br>
+            Nuestro legado nos impulsa a liderar el cambio hacia un futuro más limpio y responsable. Cada uno de nuestros productos no solo representa calidad y durabilidad, sino también un compromiso inquebrantable con el medio ambiente.<br></br>
+            Únete a nosotros en este viaje hacia un mundo donde el plástico y la sostenibilidad van de la mano. En BioPlas, estamos transformando la industria, un envase biodegradable a la vez.
+         </p>
+    </article>
+    <div class="quienes_somos_img container">
+        <img class="slide-in-section" src="../assets/img/logo/logo.png" alt="site_logo">
+    </div>
+</section>
+
+<section id="mision_y_vision" class="section_container_2 fade-in-section">
+    <article class="mision">
+        <h3>Nuestra Misión</h3>
+            <p>En BioPlast, nuestra misión es liderar la transformación hacia un futuro sostenible mediante la producción y el suministro de envases plásticos biodegradables. Nuestro objetivo es satisfacer las necesidades de nuestros clientes y consumidores, proporcionando alternativas sostenibles que contribuyan significativamente a reducir la huella ambiental, fomentando un cambio positivo en la industria y en las prácticas de consumo a nivel global.</p>
+    </article>
+
+    <article class="vision">
+        <h3>Nuestra Visión</h3>
+            <p>La visión de BioPlast es ser reconocida como líder y referente en la industria de los plásticos biodegradables, impulsando la innovación y estableciendo nuevos estándares de sostenibilidad en el mercado. Aspiramos a inspirar y catalizar la transición hacia prácticas más verdes en sectores industriales y entre los consumidores, promoviendo un ciclo de vida del producto que sea plenamente circular y respetuoso con nuestro planeta.</p>
+    </article>
+</section>
+
+<!-- POR QUE ELEGIRNOS -->
+<section id="por_que_elegir_bioplast" class="section_container franjaVerdeOscuro">
+    <img src="../assets/img/libreria/img_1_1.png" alt="Imagen de referencia" class="elemento_escritorio fade-in-section">
+    <article class="fade-in-section">
+        <h1>¿Por Qué Elegir BioPlast?</h1>
+        <p>En BioPlast, creemos que el futuro de nuestro planeta está en nuestras manos. Aspiramos a ser catalizadores de un cambio positivo hacia un mundo más sostenible, por esto, nos dedicamos a innovar en la industria de los plásticos, ofreciendo productos que no solo cumplen con las necesidades de nuestros clientes sino que también cuidan de nuestra Tierra. Elegir BioPlast significa unirte a un movimiento que valora el bienestar de nuestro ambiente tanto como el éxito en los negocios.</p>
+    </article>
+    <img src="../assets/img/libreria/img_1_2.png" alt="Imagen de referencia" class="elemento_movil fade-in-section">
+</section>
+
+<!-- COMO LO HACEMOS -->
+<section id="como_lo_hacemos" class="section_container">
+    <article class="fade-in-section">
+        <h2>¿Cómo Lo Hacemos?</h2>
+        <p>En BioPlast, transformamos la sostenibilidad en acción a través de nuestro compromiso con la innovación y la excelencia. Nuestros procesos están diseñados para minimizar el impacto ambiental, utilizando materiales biodegradables y prácticas de producción responsables. Nos esforzamos por estar a la vanguardia de la tecnología, garantizando que cada producto no solo sea ecoamigable sino también de la más alta calidad. Al elegirnos, eliges una empresa que pone el cuidado del planeta y la innovación en el centro de todo lo que hace.</p>
+    </article>
+    <img class="fade-in-section elemento_escritorio" src="../assets/img/libreria/img_2_1.png" alt="Imagen de referencia">
+    <img class="fade-in-section elemento_movil" src="../assets/img/libreria/img_2_2.png" alt="Imagen de referencia">
+</section>
+
+<!-- QUE OFRECEMOS -->
+<section id="que_ofrecemos" class="section_container">
+    <img src="../assets/img/libreria/img_3_1.png" alt="Imagen de referencia" class="elemento_escritorio fade-in-section">
+    <article class="fade-in-section">
+        <h2>¿Qué Ofrecemos?</h2>
+        <p>BioPlast es tu socio confiable en soluciones de envases biodegradables, ofreciendo una amplia gama de productos diseñados para adaptarse a tus necesidades sin comprometer el medio ambiente. Cada artículo en nuestro catálogo es un testimonio de nuestro compromiso con la calidad y la sostenibilidad. Al colaborar con nosotros, te beneficias no solo de productos excepcionales, sino también de la oportunidad de ser parte de una solución ecológica. ¡Te invitamos a trabajar junto a nosotros y ser parte de un futuro sustentable!</p>
+    </article>
+    <img src="../assets/img/libreria/img_3_2.png" alt="Imagen de referencia" class="elemento_movil fade-in-section">
+</section>
+
+<section id="por_que_elegir_bioplast_2" class="section_container_2 fade-in-section">
+    <article>
+        <div class="card_logo">
+            <span>
+                <i class="fa-solid fa-recycle"></i>
+            </span>
+        </div>
+        <h3 class="margin_bottom">Gestión de Residuos:</h3>
+        <p>El mundo está dando pasos agigantados hacia la sostenibilidad y la responsabilidad ambiental. La adopción del PLA cobra especial relevancia en este contexto, ofreciendo una alternativa ecológica y sostenible a los plásticos convencionales. Su uso en una variedad de aplicaciones, desde envases de alimentos hasta productos desechables, representa un cambio significativo en cómo pensamos y utilizamos los materiales en nuestra vida diaria, alineándonos con una visión más verde y sustentable.</p>
+    </article>
+    <img src="../assets/img/libreria/maquina.jpg" alt="Imagen de referencia">
+</section>
+
+<section id="por_que_elegir_bioplast_3" class="section_container_2">
+<article class="fade-in-section">
+    <div class="card_logo">
+        <span>
+            <i class="fa-solid fa-bolt"></i>
+        </span>
+    </div>
+    <h3>Eficiencia Energética:</h3>
+    <p>A partir de septiembre, utilizaremos maquinaria de última generación para maximizar la eficiencia energética, lo que nos permitirá reducir significativamente nuestra huella de carbono durante el proceso de producción.</p>
+</article>
+<article class="fade-in-section">
+    <div class="card_logo">
+        <span>
+            <i class="fa-solid fa-diagram-predecessor"></i>
+        </span>
+    </div>
+    <h3>Producción Controlada:</h3>
+    <p>Nuestro modelo de producción funciona basado en la demanda para evitar la sobreproducción y las mermas innecesarias, asegurando así una operación más verde y eficiente.</p>
+</article>
+<article class="fade-in-section">
+    <div class="card_logo">
+        <span>
+            <i class="fa-regular fa-lightbulb"></i>
+        </span>
+    </div>
+    <h3>Personalización para Grandes Demandas:</h3>
+    <p>Ofrecemos soluciones personalizadas para empresas que necesiten grandes cantidades de envases específicos, adaptándonos a sus necesidades sin comprometer nuestros valores ecológicos.</p>
+</article>
+<article class="fade-in-section">
+    <div class="card_logo">
+        <span>
+            <i class="fa-solid fa-money-bill-trend-up"></i>
+        </span>
+    </div>
+    <h3>Apoyo a la Economía Local:</h3>
+    <p>Como productores nacionales, contribuiremos al fortalecimiento de la economía de Chile, apoyando la industria local y reduciendo la necesidad de importaciones.</p>
+</article>
+<article class="fade-in-section">
+    <div class="card_logo">
+        <span>
+            <i class="fa-solid fa-truck"></i>
+        </span>
+    </div>
+    <h3>Reducción de Costos y Emisiones en Envíos:</h3>
+    <p>Al elegir BioPlast, se evitarán costos adicionales y emisiones innecesarias asociadas con el transporte internacional, favoreciendo una opción más sostenible y económica.</p>
+</article>
+<article class="fade-in-section">
+    <div class="card_logo">
+        <span>
+            <i class="fa-solid fa-gear"></i>
+        </span>
+    </div>
+    <h3>Automatización y Bienestar Laboral:</h3>
+    <p>La automatización mejorará la eficiencia y la seguridad, creando un ambiente de trabajo óptimo para nuestro equipo, sin sobrecarga laboral.</p>
+</article>
+</section>
+
+<!-- FIN CONTENIDO DEL SITIO -->
+
+<!-- FOTER -->
+<footer id="footer">
+    <div class="footer_escritorio fade-in-section">
+        <div class="footer_container">
+            <div class="col-4 me-5">
+                <a href="index.html" class="footer_logo_link"><img src="../assets/img/logo/bioplast_1.png" alt="logo" class="footer_logo"> <span class="footer_logo">BioPlast</span></a>
+                <p class="text_justify">En BioPlast, lideramos la transición hacia la sostenibilidad con plásticos biodegradables de calidad. Uniendo innovación y compromiso ambiental, buscamos inspirar un cambio positivo en la industria y en el consumo global. Únete a nosotros en nuestro camino hacia un mundo más verde.</p>
+            </div>
+            <ul class="footer_menu">
+                <li class="footer_title">Sobre Nosotros:</li>
+                <li><a href="#quienes_somos">¿Quienes Somos?</a></li>
+                <li><a href="#mision_y_vision">Nuestra Misión y Visión</a></li>
+                <li><a href="pla.html#que_es_el_pla">¿Qué es el PLA?</a></li>
+                <li><a href="#catalogo">Catálogo de Productos</a></li>
+            </ul>
+            <ul class="footer_menu">
+                <li class="footer_title">Contacto:</li>
+                <li><i class="fa-regular fa-clock"></i> 9:00AM - 5:00PM</li>
+                <li><i class="fa-brands fa-whatsapp"></i> +56 9 3087 2819</li>
+                <li><i class="fa-solid fa-envelope"></i> ventas@bio-plast.cl</li>
+                <li><i class="fa-solid fa-location-dot"></i> Guardia Vieja N°202, Providencia</li>
+            </ul>
+        </div>
+        <ul class="certificados_box">
+            <li>
+                <img src="../assets/img/icons/ASTM_logo.png" alt="">
+                <h6>ASTM INTERNATIONAL</h6>
+                <p>American Society for Testing and Materials</p>
+            </li>
+            <li>
+                <img src="../assets/img/icons/CEN_logo.png" alt="">
+                <h6>(CEN) EN13432</h6>
+                <p>European Standardization Comitee</p>
+            </li>
+            <li>
+                <img src="../assets/img/icons/ISO_logo.png" alt="">
+                <h6>ISO 14855</h6>
+                <p>International Standards Organisation</p>
+            </li>
+            <li>
+                <img src="../assets/img/icons/FDA_logo.png" alt="">
+                <h6>FDA</h6>
+                <p>Food and Drug Administration, FDA</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer_movil">
+        <div>
+            <a href="index.html" class="footer_logo_link"><img src="../assets/img/logo/bioplast_1.png" alt="logo" class="footer_logo"> <span class="footer_logo">BioPlast</span></a>
+            <p class="text_justify">En BioPlast, lideramos la transición hacia la sostenibilidad con plásticos biodegradables de calidad. Uniendo innovación y compromiso ambiental, buscamos inspirar un cambio positivo en la industria y en el consumo global. Únete a nosotros en nuestro camino hacia un mundo más verde.</p>
+        </div>
+        <div class="footer_container">
+            <ul class="footer_menu">
+                <li class="footer_title">Contacto:</li>
+                <li><i class="fa-regular fa-clock"></i> 9:00AM - 5:00PM</li>
+                <li><i class="fa-brands fa-whatsapp"></i> +56 9 3087 2819</li>
+                <li><i class="fa-solid fa-envelope"></i> ventas@bio-plast.cl</li>
+                <li><i class="fa-solid fa-location-dot"></i> Guardia Vieja N°202, Providencia</li>
+            </ul>
+            <ul class="footer_menu text-end">
+                <li class="footer_title">Sobre Nosotros:</li>
+                <li><a href="#quienes_somos">¿Quienes Somos?</a></li>
+                <li><a href="#mision_y_vision">Nuestra Misión y Visión</a></li>
+                <li><a href="pla.html#que_es_el_pla">¿Qué es el PLA?</a></li>
+                <li><a href="#catalogo">Catálogo de Productos</a></li>
+            </ul>
+        </div>
+        <ul class="certificados_box">
+            <li>
+                <img src="../assets/img/icons/ASTM_logo.png" alt="">
+                <h6>ASTM INTERNATIONAL</h6>
+                <p>American Society for Testing and Materials</p>
+            </li>
+            <li>
+                <img src="../assets/img/icons/CEN_logo.png" alt="">
+                <h6>(CEN) EN13432</h6>
+                <p>European Standardization Comitee</p>
+            </li>
+            <li>
+                <img src="../assets/img/icons/ISO_logo.png" alt="">
+                <h6>ISO 14855</h6>
+                <p>International Standards Organisation</p>
+            </li>
+            <li>
+                <img src="../assets/img/icons/FDA_logo.png" alt="">
+                <h6>FDA</h6>
+                <p>Food and Drug Administration, FDA</p>
+            </li>
+        </ul>
+    </div>
+    <div id="copyright">
+        <img src="../assets/img/logo/bioplast_2.png" alt="BioPlast logo"><p>BioPlast © 2024 - Todos los derechos reservados</p>
+    </div>
+</footer> <!-- FOTER -->
+<button id="btnVolverArriba" title="Volver arriba">↑</button>
+<a href="https://wa.me/56930872819" class="whatsapp-button" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+</body>
+<script src="../assets/js/scripts.js"></script>
+</html>

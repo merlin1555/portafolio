@@ -17,22 +17,22 @@
 /* ================================ Modo Oscuro ======================================== */
 /* Estilos para el modo Oscuro */
 body{
-    /*background-color: var(--negro-1);*/
-	background: linear-gradient(to bottom, #020107 0%, #201b46 100%);
+    /*background-color: var(--negro-1);
+	background: linear-gradient(to bottom, #020107 0%, #201b46 100%);*/
     color: var(--blanco-2);
 }
 nav{
     background-color: var(--negro-1);
     color: var(--blanco-2);
 }
-main{
-    background-color: var(--negro_transparente);
+#banner{
+	background: linear-gradient(to bottom, #020107 0%, #201b46 100%);
+}
+body{
+    background-color: var(--negro-2);
     color: var(--blanco-2);
 }
-#evidencias{
-	background-color: var(--negro-1);
-}
-#biografia{
+main{
 	background-color: var(--negro-2);
 }
 .menu_principal a{

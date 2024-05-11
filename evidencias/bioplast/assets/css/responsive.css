@@ -1,0 +1,440 @@
+/* -- (@Media para PC) -- */
+@media screen and (min-width: 991px) {
+    /* ELEMENTOS DEL SITIO */
+    .elemento_movil{
+        display: none;
+    }
+    h1,
+    h2,
+    h3{
+        margin-bottom: 1em;
+    }
+    .section_container{
+        display: flex;
+    }
+    /* SOBRE NOSOTROS */
+    #quienes_somos,
+    #que_es_el_pla_2,
+    #por_que_elegir_bioplast_2,
+    #como_lo_hacemos,
+    #que_ofrecemos,
+    #mision_y_vision{
+        display: flex;
+        justify-content: space-between;
+    }
+    #quienes_somos article{
+        width: 60%;
+    }
+    #por_que_elegir_bioplast_2 article,
+    #que_es_el_pla_2 article
+    #como_lo_hacemos article,
+    #mision_y_vision article{
+        width: 45%;
+    }
+    #que_es_el_pla_2 img,
+    #por_que_elegir_bioplast img,
+    #como_lo_hacemos img,
+    #que_ofrecemos img,
+    #por_que_elegir_bioplast_2 img{
+        width: 45%;
+        height: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .adelantandonos_al_cambio_img{
+        width: 25% !important;
+    }
+    #que_ofrecemos article,
+    #por_que_elegir_bioplast article{
+        padding-left: 6em;
+    }
+    #importancia_pla_en_chile{
+        padding-left: 3em;
+    }
+    #adelantandonos_al_cambio,
+    #como_lo_hacemos article{
+        padding-right: 6em;
+    }
+    .quienes_somos_img{
+        width: 40%;
+    }
+    #por_que_elegir_bioplast_3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #por_que_elegir_bioplast_3 article{
+        width: 30%;
+        margin-right: 3%;
+        padding: 1em;
+    }
+    #por_que_elegir_bioplast_2{
+        margin-top: 4em;
+    }
+    .navbar-brand{
+        display: flex;
+        align-items: center;
+        height: 60px !important;
+    }
+    .navbar-brand span{
+        font-size: 150%;
+        display: flex;
+        align-items: center;
+        margin-left: 0.3em;
+        height: 60px !important;
+    }
+    .ley_rep_img{
+        padding-left: 8em;
+    }
+    .certificados_box{
+        padding-top: 4%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 75%;
+    }
+    .certificados_box li{
+        text-align: center;
+    }
+    .certificados_box img{
+        height: 50px;
+    }
+    .certificados_box h6{
+        margin: 0.5em 0 0.1em 0;
+    }
+    p{
+        font-size: 18px !important;
+    }
+}
+/* -- (@Media para Moviles) -- */
+@media screen and (max-width: 990px) {
+        /* ELEMENTOS DEL SITIO */
+    .elemento_escritorio{
+        display: none;
+    }
+    h1{
+        margin-bottom: 1em;
+    }
+    h2{
+        margin-bottom: 0.5em;
+    }
+    h3{
+        margin-bottom: 1.5em;
+    }
+    /* HEADER */
+    .navbar{
+        width: 100vw !important;
+    }
+    .navbar-nav{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /* SOBRE NOSOTROS */
+    #que_es_el_pla_2 img,
+    #por_que_elegir_bioplast img,
+    #como_lo_hacemos img,
+    #que_ofrecemos img{
+        width: 100%;
+    }
+    .adelantandonos_al_cambio_img{
+        width: 50% !important;
+    }
+    .quienes_somos_img{
+        width: 100%;
+        padding-top: 2em;
+    }
+    #como_lo_hacemos p,
+    #que_ofrecemos p{
+        margin-bottom: 3em;
+    }
+    #por_que_elegir_bioplast_2 img{
+        width: 100%;
+    }
+    #por_que_elegir_bioplast_3 p{
+        margin-bottom: 2em;
+    }
+    #por_que_elegir_bioplast_2 h3,
+    #por_que_elegir_bioplast_3 h3{
+        text-align: center;
+    }
+    #por_que_elegir_bioplast_2 h3{
+        margin-bottom: 2em !important;
+    }
+    #por_que_elegir_bioplast_2 p{
+        margin-bottom: 3em !important;
+    }
+    .carousel-inner div{
+        flex-direction: column;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .carousel-inner h2,
+    .carousel-inner h3,
+    .carousel-inner h4{
+        font-size: 75%;
+    }
+    .carousel-inner button{
+        font-size: 80% !important;
+    }
+    .d-none{
+        display: grid !important;
+    }
+    .navbar-nav{
+        background-color: #E9E8E6;
+        padding: 1em;
+        border-radius: 0 0 5px 5px;
+    }
+    .navbar-nav li{
+        padding: 0.2em 0;
+    }
+    .ley_rep_img img{
+        width: 50%;
+        margin-bottom: 2em;
+    }
+    #que_es_el_pla_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .certificados_box{
+        display: flex;
+        justify-content: space-between;
+        font-size: 50%;
+        flex-wrap: wrap;
+    }
+    .certificados_box li{
+        text-align: center;
+        margin-top: 2em;
+        width: 40%;
+    }
+    .certificados_box img{
+        height: 40px;
+    }
+    .certificados_box h6{
+        margin: 0.5em 0 0.1em 0;
+        font-size: 150%;
+    }
+}
+
+/* ==========================================================================================================
+** Sección Exclusiva para los MARGENES DEL SITIO 
+** en distintos dispositivos
+*/
+/* -- (@Media para Escritorio 1200px ) -- */
+@media screen and (min-width: 1200px ) {
+    .section_container{
+        padding: 4em 8%;
+    }
+    .section_container_2{
+        padding: 0 20% 8em 20%;
+    }
+    #catalogo{
+        padding: 8em 30%;
+    }
+}
+/* -- (@Media para Escritorio 991px) -- */
+@media screen and (min-width: 991px) {
+    .section_container{
+        padding: 8em 10%;
+    }
+    .section_container_2{
+        padding: 0 10% 3em 10%;
+    }
+    #catalogo{
+        padding: 8em 25%;
+    }
+}
+/* -- (@Media para Moviles) -- */
+@media screen and (max-width: 990px) {
+    .section_container{
+        padding: 3em 10%;
+    }
+    .section_container_2{
+        padding: 0 10% 3em 10%;
+    }
+    #catalogo{
+        padding: 2em 5% 4em 5%;
+    }
+    #por_que_elegir_bioplast_2{
+        margin-top: 2em;
+    }
+    #adelantandonos_al_cambio,
+    .vision{
+        margin-top: 3em;
+    }
+}
+/* ==========================================================================================================
+** Sección Exclusiva para determinar cómo se muestra 
+** el MENU PRINCIPAL Y HEADER DEL SITIO en distintos dispositivos
+*/
+@media screen and (min-width: 768px ) {
+    .navbar_movil{
+        display: none;
+    }
+    #banner,
+    #ley_rep{
+        margin-top: 7em;
+    }
+    #banner .carousel-control-prev,
+    #banner .carousel-control-next{
+        width: 6em !important;
+    }
+    #que_es_el_pla,
+    #contacto{
+        margin-top: 5em;
+    }
+    .carousel-caption{
+        padding-bottom: 4%;
+        bottom: 0.25rem !important;
+    }
+    .carousel-caption h2{
+        font-size: 350%;
+    }
+    .carousel-caption h3{
+        font-size: 250%;
+    }
+    .carousel-caption h2,
+    .carousel-caption h3,
+    .carousel-caption h4,
+    .carousel-caption .banner_buttons{
+        padding-left: 7%;
+    }
+    .banner1 div,
+    .banner2 div,
+    .banner3 div{
+        text-align: end;
+        padding-right: 10%;
+    }
+}
+/* -- (@Media para Moviles) -- */
+@media screen and (max-width: 767px) {
+    .navbar_escritorio{
+        display: none !important;
+    }    
+    header{
+        max-height: 7em !important;
+    }
+    #banner{
+        margin-top: 6em;
+    }
+    #ley_rep{
+        margin-top: 7em;
+    }
+    .idioma{
+        margin-left: auto;
+        margin-right: 1em;
+    }
+    #banner .carousel-control-prev,
+    #banner .carousel-control-next{
+        width: 1.5em !important;
+    }
+    #banner button{
+        font-size: 160%;
+    }
+    .carousel-caption{
+        padding-bottom: 6%;
+    }
+    .carousel-caption h2{
+        font-size: 210%;
+        margin-bottom: 0.3em;
+    }
+    .carousel-caption h3{
+        font-size: 160%;
+    }
+    .carousel-caption h4{
+        font-size: 100%;
+    }
+}
+/* ==========================================================================================================
+** Sección Exclusiva para determinar cómo se muestra 
+** el FOOTER DEL SITIO en distintos dispositivos
+*/
+@media screen and (min-width: 1200px ) {
+    footer .footer_escritorio{
+        padding: 4em;
+    }
+    .footer_movil{
+        display: none;
+    }
+    .footer_menu{
+        padding: 0 !important;
+    }
+    .footer_menu li{
+        margin-bottom: 0.3em;
+    }
+    .footer_menu i{
+        margin-right: 0.3em;
+    }
+    .footer_container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+/* -- (@Media para Moviles) -- */
+@media screen and (max-width: 1199px) {
+    footer{
+        padding-top: 2em;
+    }
+    footer .footer_movil{
+        padding: 2em;
+    }
+    footer ul{
+        padding: 0 !important;
+    }
+    .footer_menu{
+        margin: 3em 0;
+    }
+    .footer_escritorio{
+        display: none;
+    }
+    .social_links{
+        justify-content: center;
+    }
+    .footer_container{
+        font-size: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_container ul{
+        width: 47%;
+    }
+    #copyright{
+        text-align: center;
+        flex-direction: column;
+    }
+}
+/* ==========================================================================================================
+** Sección Exclusiva para determinar cómo se muestra 
+** el TAMAÑO DE LA FUENTE en distintos dispositivos
+*/
+/* -- (@Media para Escritorio) -- */
+@media screen and (min-width: 768px ) {
+    .navbar_escritorio{
+        font-size: 120%;
+    }
+    h1{
+        font-size: 400%;
+    }
+    h2{
+        font-size: 500%;
+    }
+}
+/* -- (@Media para Ipads) -- */
+@media screen and (max-width: 768px) {
+    .navbar_escritorio{
+        font-size: 90%;
+    }
+}
+/* -- (@Media para Moviles) -- */
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 250%;
+    }
+    h2{
+        font-size: 300%;
+    }
+    .header_top{
+        font-size: 75%;
+    }
+}
+    

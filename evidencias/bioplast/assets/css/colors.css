@@ -1,0 +1,157 @@
+:root {
+  /* Sitio */
+  --blanco_opaco: #e9e8e6;
+
+  /* Fuentes */
+  --fuente_principal: #153111;
+
+  /* Verdes */
+
+  --verde-claro: #99ca7c;
+  --verde: #4d714d;
+  --verde-oscuro: #3f6439;
+  --verde-mas-oscuro: #1c3e17;
+
+  /* Varios */
+  --negro_transparente: rgba(0, 0, 0, 0.6);
+}
+.site_logo {
+  color: var(--verde);
+}
+header {
+  background-color: var(--blanco_opaco);
+  color: var(--fuente_principal);
+  box-shadow: 0px 0px 10px 0px rgba(79.89999999999999, 79.89999999999999, 79.89999999999999, 0.5)
+}
+.header_top {
+  background-color: var(--verde-mas-oscuro);
+  color: var(--blanco_opaco);
+}
+header #site_nav a,
+header .navbar-nav a {
+  color: var(--fuente_principal);
+}
+.idioma_btn {
+  background-color: transparent;
+}
+.card_logo span {
+  color: var(--verde-claro);
+  border: solid 2px var(--verde-claro);
+}
+#catalogo .carousel-control-prev-icon,
+#catalogo .carousel-control-next-icon {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 65% 65%;
+}
+#catalogo .catalogo_container {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#que_es_el_pla_2 a{
+  color: var(--verde-mas-oscuro);
+  font-weight: bolder;
+}
+/* Estilos para el Footer */
+footer a {
+  color: var(--fuente_principal);
+}
+.footer_logo_link{
+  color: var(--verde-claro);
+}
+.footer_menu a{
+  color: #fff;
+}
+.footer_menu a:hover{
+  color: #153111;
+  font-weight: normal;
+  transition: all 0.3s;
+}
+/* BOTONES */
+button {
+  background-color: var(--verde-claro);
+  border-color: var(--verde-claro);
+  color: var(--verde-mas-oscuro);
+}
+button a {
+  color: var(--verde-mas-oscuro);
+}
+button:hover {
+  background-color: transparent;
+  border-color: var(--verde-mas-oscuro);
+}
+button a:hover {
+  color: var(--verde-mas-oscuro);
+}
+.banner_buttons button:hover{
+  background-color: rgba(90, 150, 84, 0.5)
+}
+.contactenos_btn {
+  border-color: white;
+  color: white;
+  background-color: transparent;
+}
+.contactenos_btn a {
+  color: white;
+}
+.contactenos_btn:hover {
+  background-color: var(--verde-claro);
+  border-color: var(--verde-claro);
+  color: var(--verde-mas-oscuro);
+}
+.contactenos_btn a:hover {
+  color: var(--verde-mas-oscuro);
+}
+/* SOMBRAS */
+#quienes_somos img,
+#por_que_elegir_bioplast_2 img {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); /* ajusta los valores según sea necesario */
+}
+#que_ofrecemos img,
+#como_lo_hacemos img,
+#por_que_elegir_bioplast img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); /* ajusta los valores según sea necesario */
+}
+/* FONDOS */
+
+/* VERDE ORSCURO */ /*
+#por_que_elegir_bioplast,*/
+#que_es_el_pla,
+#que_es_el_pla_2,
+#que_ofrecemos,
+#catalogo,
+footer {
+  background-color: var(--verde-oscuro);
+  color: var(--blanco_opaco);
+}
+
+/* VERDE MAS OSCURO */
+#copyright{
+  background-color: var(--verde-mas-oscuro);
+  color: white;
+}
+
+/* VERDE CLARO */
+#mision,
+#como_lo_hacemos,
+#historia_de_bioplast,
+#historia_de_bioplast_2,
+#historia_de_bioplast_3 {
+  background-color: var(--verde-claro);
+  color: var(--verde-mas-oscuro);
+}
+
+.franjaVerdeOscuro {
+  background-color: var(--verde-oscuro);
+  color: var(--blanco_opaco);
+}
+
+.fvo {
+  --blanco_opaco: #e9e8e6;
+  --fuente_principal: #153111;
+  --verde-claro: #99ca7c;
+  --verde: #4d714d;
+  --verde-oscuro: #3f6439;
+  --verde-mas-oscuro: #1c3e17;
+  --negro_transparente: rgba(0, 0, 0, 0.6);
+}

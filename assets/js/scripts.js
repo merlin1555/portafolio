@@ -26,40 +26,31 @@ $(document).ready(function( ){
     $("#menu_item").slideDown(1500);
     $("#menu_cont").slideDown(1800);
 
-    /* Modo oscuro */
+    /* Cambio de colores para el Modo oscuro */
     $("#modo_oscuro").click(function(){
-		$("body").removeClass('atardecer');
-		$("main").removeClass('fondo_claro');
-        $("nav").removeClass('modo_claro');
-        $("#biografia").removeClass('modo_claro');
-        $("nav").removeClass('modo_claro_sombra');
-        $(".menu_principal a").removeClass('modo_claro_fuente');
-        $(".lista_evidencias li").removeClass('link_modo_claro');
-        $(".menu_social li").removeClass('link_modo_claro');
+		$("#banner").removeClass('atardecer');  // Fondo cielo
+        $("main").removeClass('modo_claro'); // Main
+        $("nav").removeClass('modo_claro'); // Menú principal
+        $("nav").removeClass('modo_claro_sombra');  // Sombra inferior del menú principal
+        $(".menu_principal a").removeClass('modo_claro_fuente');    // Links del menú principal
+        $(".lista_evidencias li").removeClass('link_modo_claro');   // Lista de evidencias
+        $(".menu_social li").removeClass('link_modo_claro');    // Links sociales
 
-        $(".circles li").removeClass('circles_modo_claro');
-        $("#modo_oscuro").hide();
-        $("#modo_claro").fadeIn(500);
+        $("#modo_oscuro").hide();       // Esconder el boton Sol
+        $("#modo_claro").fadeIn(500);   // Mostrar el boton Luna
 	});
     $("#modo_claro").click(function(){
-		$("body").addClass('atardecer');
-		$("main").addClass('fondo_claro');
-		$("nav").addClass('modo_claro');
-		$("#biografia").addClass('modo_claro');
-		$("nav").addClass('modo_claro_sombra');
-		$(".menu_principal a").addClass('modo_claro_fuente');
-		$(".lista_evidencias li").addClass('link_modo_claro');
-		$(".menu_social li").addClass('link_modo_claro');
+		$("#banner").addClass('atardecer'); // Fondo cielo
+		$("main").addClass('modo_claro'); // Main
+		$("nav").addClass('modo_claro');    // Menú principal
+		$("nav").addClass('modo_claro_sombra'); // Sombra inferior del menú principal
+		$(".menu_principal a").addClass('modo_claro_fuente');   // Links del menú principal
+		$(".lista_evidencias li").addClass('link_modo_claro');  // Lista de evidencias
+		$(".menu_social li").addClass('link_modo_claro');   // Links sociales
 
-		$(".circles li").addClass('circles_modo_claro');
-        $("#modo_claro").hide();
-        $("#modo_oscuro").fadeIn(500);
+        $("#modo_claro").hide();        // Esconder el boton Luna
+        $("#modo_oscuro").fadeIn(500);  // Mostrar el boton Sol
 	});
-
-    $(".btn_desplegable").click(function(){
-        /*$(".caja_desplegable").slideToggle('slow');*/
-        $(this).siblings(".caja_desplegable").slideToggle('slow');
-    });
 
     /* Iconos contacto */
     $(".menu_social").children().mouseenter(function(){

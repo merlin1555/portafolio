@@ -1,5 +1,5 @@
 <section id="banner">
-    <div class="banner_principal">
+    <div class="container">
         <div class="sky">
             <div class="stars"></div>
             <div class="stars1"></div>
