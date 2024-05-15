@@ -23,7 +23,7 @@ a{
 	text-decoration: none;
 }
 button{
-	border: none;
+	border: none !important;
 }
 /* ==============================================================================================================================================================================================
 ** Menú Principal del sitio
@@ -122,6 +122,9 @@ nav{
 #evidencias{
 	padding: 10% 0;
 }
+.lista_evidencias{
+	padding: 0;
+}
 .lista_evidencias li{
 	margin: 2em 0;
 	display: flex;
@@ -134,16 +137,7 @@ nav{
 	transition: all 1s;
 	text-decoration: none;
 }
-/*
 .caja_desplegable{
-	padding: 2%;
-	display: flex;
-	width: 80vh;
-	border-radius: 5px;
-	display: none;
-}*/
-.caja_desplegable{
-	width: 70vw;
 	display: flex;
 }
 .caja_desplegable img{
@@ -167,6 +161,9 @@ nav{
 	width: 50%;
 	display: flex;
 	flex-direction: column;
+}
+#evidencias .contenido_caja_desplegable .boton_custom_1{
+	width: fit-content;
 }
 /* ==============================================================================================================================================================================================
 ** social

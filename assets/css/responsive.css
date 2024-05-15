@@ -3,10 +3,13 @@
 ** (ancho mayor o igual a 1024px)
 */
 @media screen and (min-width: 1024px) {
+	.caja_desplegable{
+		width: 70vw;
+	}
 	/* "Banner" del sitio */
 	.banner_principal,
 	.container{
-		min-height: 100vh;
+		min-height: 100%;
 	}
 	/* Menu social */
 	.menu_social{
@@ -26,6 +29,29 @@
 ** (ancho menor o igual a 1023px)
 */
 @media screen and (max-width: 1023px) {
+	h1{
+		margin-bottom: 1em;
+	}
+	h1, h2{
+		font-size: 200%;
+	}
+	nav{
+		font-size: 180%;
+	}
+	.caja_desplegable{
+		width: 100%;
+		font-size: 120%;
+	}
+	#biografia,
+	#evidencias,
+	#social{
+		font-size: 180%;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	#evidencias button{
+		font-size: 180%;
+	}
 	/* "Banner" del sitio */
 	.banner_principal,
 	.container{

@@ -16,7 +16,7 @@
                         <span>Descripción corta del proyecto</span>
                         <!--
                         <div id="languages"></div> -->
-                        <a href="evidencias/mithril" target="_blank">Link al proyecto</a>
+                        <a href="evidencias/mithril" target="_blank" class="boton_custom_1">Link al proyecto</a>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                     <div class="contenido_caja_desplegable">
                         <h4>Bioplast - Landing page</h4>
                         <span>Descripción corta del proyecto</span>
-                        <a href="evidencias/bioplast/" target="_blank">Link al proyecto</a>
+                        <a href="evidencias/bioplast/" target="_blank" class="boton_custom_1">Link al proyecto</a>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,25 @@
                     <div class="contenido_caja_desplegable">
                         <h4>Aritos3D - Tienda virtual</h4>
                         <span>Descripción corta del proyecto</span>
-                        <a href="https://aritos3d.cl/" target="_blank">Link al proyecto</a>
+                        <a href="https://aritos3d.cl/" target="_blank" class="boton_custom_1">Link al proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="fade-in-section">
+            <p class="d-inline-flex gap-1">
+                <button class="btn boton_giratorio" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample3">
+                    <span>3D Market</span>    
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+            </p>
+            <div class="collapse" id="collapseExample7">
+                <div class="caja_desplegable">
+                    <img src="assets/img/cards/3dmarket.png" alt="">
+                    <div class="contenido_caja_desplegable">
+                        <h4>3D Market</h4>
+                        <span>Descripción corta del proyecto</span>
+                        <a href="https://aritos3d.cl/empresas/" target="_blank" class="boton_custom_1">Link al proyecto</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +88,7 @@
                     <div class="contenido_caja_desplegable">
                         <h4>Examen Final</h4>
                         <span>Descripción corta del proyecto</span>
-                        <a href="evidencias/blog_examen" target="_blank">Link al proyecto</a>
+                        <a href="evidencias/blog_examen" target="_blank" class="boton_custom_1">Link al proyecto</a>
                     </div>
                 </div>
             </div>
@@ -88,7 +106,7 @@
                     <div class="contenido_caja_desplegable">
                         <h4>Blog de Wordpress: ¿Qué Aprendí?</h4>
                         <span>Descripción corta del proyecto</span>
-                        <a href="evidencias/blog_quehice" target="_blank">Link al proyecto</a>
+                        <a href="evidencias/blog_quehice" target="_blank" class="boton_custom_1">Link al proyecto</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +124,7 @@
                     <div class="contenido_caja_desplegable">
                         <h4>Template de Wordpress - Liceo Carmen Arriaran</h4>
                         <span>Descripción corta del proyecto</span>
-                        <a href="evidencias/lcarmenarriaran" target="_blank">Link al proyecto</a>
+                        <a href="evidencias/lcarmenarriaran" target="_blank" class="boton_custom_1">Link al proyecto</a>
                     </div>
                 </div>
             </div>

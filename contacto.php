@@ -23,8 +23,8 @@
             </div>
 
             <div class="modal-footer">
-                <button type="button" data-bs-dismiss="modal">Cerrar</button>
-                <input type="submit" value="Enviar">
+                <button class="boton_custom_cancelar" type="button" data-bs-dismiss="modal">Cerrar</button>
+                <input class="boton_custom_1" type="submit" value="Enviar">
             </div>
         </form>
     </div>

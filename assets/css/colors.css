@@ -15,6 +15,43 @@
 	** colores paleta 01 */
 
 	--footer: #080808;
+	--azul:  #195DC1;
+	--magenta: #70326E;
+	--morado: #464696;
+	--graadiente: linear-gradient(to bottom, #195DC1 0%, #70326E 100%);
+}
+/* botones */
+.boton_custom_1{
+	background: rgb(25,93,193);
+	background: linear-gradient(330deg, rgba(25,93,193,1) 0%, rgba(112,50,110,1) 100%);
+	background-size: 200% auto;
+	color: white;
+	border-radius: 10px;
+	padding: 0.5em 1em;
+	margin-top: 1em !important;
+	text-align: center;
+	transition: 0.5s;
+	border: none !important;
+}
+.boton_custom_1:hover{
+	background-position: right center !important; /* change the direction of the change here */
+	transition: 0.5s;
+}
+.boton_custom_cancelar{
+	background-color: var(--negro-3);
+	background-size: 200% auto;
+	color: white;
+	border-radius: 10px;
+	padding: 0.5em 1em;
+	margin-top: 1em !important;
+	text-align: center;
+	transition: 0.5s;
+	border: none !important;
+}
+.boton_custom_cancelar:hover{
+	background-color: var(--negro-2);
+	color: #757171;
+	transition: 0.5s;
 }
 /* ================================ Modo Oscuro ======================================== */
 /* Estilos para el modo Oscuro */
