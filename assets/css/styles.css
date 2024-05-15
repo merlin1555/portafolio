@@ -13,13 +13,17 @@ body{
 main{
 	transition: all 0.5s;
 	position: absolute;
-	z-index: 999;
+	/*z-index: 999;*/
+	padding: 0% 10% 10% 10%;
 }
 ul{
 	list-style: none;
 }
 a{
 	text-decoration: none;
+}
+button{
+	border: none;
 }
 /* ==============================================================================================================================================================================================
 ** Menú Principal del sitio
@@ -28,7 +32,8 @@ nav{
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 9999;
+	z-index: 99;
+	/*z-index: 9999;*/
 }
 .menu_principal{
 	display: flex;
@@ -59,10 +64,12 @@ nav{
 	width: 1em;
 }
 /* ==============================================================================================================================================================================================
-** Menú Contacto
+** Menú social
 */
 .lista_evidencias li,
-.menu_social li{
+.menu_social li,
+.menu_social button,
+.menu_social a{
 	transition: all 0.5s;
 	cursor: pointer;
 }
@@ -74,7 +81,8 @@ nav{
 	justify-content: center;
 	margin: 0;
 }
-.menu_social li{
+.menu_social button,
+.menu_social a{
 	width: 4.5em;
 	height: 3em;
 	margin: 0;
@@ -84,6 +92,8 @@ nav{
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
+	align-items: center;
+	border: none;
 }
 .menu_social i{
 	font-size: 150%; }
@@ -92,13 +102,12 @@ nav{
 */
 #biografia,
 #evidencias{
-	min-height: 100vh;
 	display: flex;
     flex-direction: column;
     justify-content: center;
 }
 #evidencias,
-#contacto{
+#social{
 	text-align: center;
 }
 /* ==============================================================================================================================================================================================
@@ -134,7 +143,7 @@ nav{
 	display: none;
 }*/
 .caja_desplegable{
-	width: 80vh;
+	width: 70vw;
 	display: flex;
 }
 .caja_desplegable img{
@@ -149,15 +158,36 @@ nav{
 .contenido_caja_desplegable a{
 	margin-top: auto;
 }
+.caja_desplegable article{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.contenido_caja_desplegable article span{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
 /* ==============================================================================================================================================================================================
-** Contacto
+** social
 */
-#contacto{
+#social{
 	padding: 10% 0;
 	display: flex;
     flex-direction: column;
     justify-content: center;
 }
+#contacto .modal-body{
+	display: flex;
+	flex-direction: column;
+}
+#contacto label{
+	margin-top: 1em;
+}
+.modal-dialog{
+	margin-top: 10%;
+}
+
 /* ==============================================================================================================================================================================================
 ** Footer
 */
@@ -183,4 +213,25 @@ footer{
 	display: flex !important;
 	font-size: 250%;
 	font-weight: bolder;
+}
+/* Estilos para la barra de desplazamiento */
+/* Webkit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+	transition: all 0.3s;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo de la pista de la barra de desplazamiento */
+	transition: all 0.3s;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color del pulgar de la barra de desplazamiento */
+	transition: all 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del pulgar de la barra de desplazamiento cuando se pasa el mouse */
+	transition: all 0.3s;
 }

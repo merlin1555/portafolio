@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 $(document).ready(function () {
+    
     /* volver arriba */
     window.onscroll = function() {scrollFunction()};
 

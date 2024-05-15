@@ -29,34 +29,60 @@ $(document).ready(function( ){
     /* Cambio de colores para el Modo oscuro */
     $("#modo_oscuro").click(function(){
 		$("#banner").removeClass('atardecer');  // Fondo cielo
-        $("main").removeClass('modo_claro'); // Main
+        $("main").removeClass('main_claro'); // Main
         $("nav").removeClass('modo_claro'); // Menú principal
         $("nav").removeClass('modo_claro_sombra');  // Sombra inferior del menú principal
         $(".menu_principal a").removeClass('modo_claro_fuente');    // Links del menú principal
         $(".lista_evidencias li").removeClass('link_modo_claro');   // Lista de evidencias
-        $(".menu_social li").removeClass('link_modo_claro');    // Links sociales
+        $(".menu_social a").removeClass('link_modo_claro');    // Links sociales
+        $(".menu_social button").removeClass('link_modo_claro');    // Links sociales
+        $(".caja_desplegable").removeClass('footer_claro');    // Caja de Evidencias
+        $(".lista_evidencias button").removeClass('link_modo_claro');    // Botones Desplegables de las Evidencias
+        $("#contacto").removeClass('footer_claro');    // Caja de Correo desplegable
 
         $("#modo_oscuro").hide();       // Esconder el boton Sol
         $("#modo_claro").fadeIn(500);   // Mostrar el boton Luna
 	});
     $("#modo_claro").click(function(){
 		$("#banner").addClass('atardecer'); // Fondo cielo
-		$("main").addClass('modo_claro'); // Main
+		$("main").addClass('main_claro'); // Main
 		$("nav").addClass('modo_claro');    // Menú principal
 		$("nav").addClass('modo_claro_sombra'); // Sombra inferior del menú principal
 		$(".menu_principal a").addClass('modo_claro_fuente');   // Links del menú principal
 		$(".lista_evidencias li").addClass('link_modo_claro');  // Lista de evidencias
-		$(".menu_social li").addClass('link_modo_claro');   // Links sociales
+		$(".menu_social a").addClass('link_modo_claro');   // Links sociales
+		$(".menu_social button").addClass('link_modo_claro');   // Links sociales
+		$(".caja_desplegable").addClass('footer_claro');   // Caja de Evidencias
+		$(".lista_evidencias button").addClass('link_modo_claro');   // Botones Desplegables de las Evidencias
+		$("#contacto").addClass('footer_claro');   // Caja de Correo desplegable
 
         $("#modo_claro").hide();        // Esconder el boton Luna
         $("#modo_oscuro").fadeIn(500);  // Mostrar el boton Sol
 	});
 
+    /* Close button de las cajas de las Evidencias */
+    $(".close_button").click(function(){
+        $(this).parent().parent().parent().removeClass("show");
+    });
+
+    /* Iconos contacto 
+    $(".menu_social").children().mouseenter(function() {
+        // Buscar dentro del botón y seleccionar el span
+        let target = $(this).children("button").children("span");
+        target.slideDown();
+    });
+
+    $(".menu_social").children().mouseleave(function() {
+        // Buscar dentro del botón y seleccionar el span
+        let target = $(this).children("button").children("span");
+        target.slideUp();
+    });*/
+
     /* Iconos contacto */
     $(".menu_social").children().mouseenter(function(){
-        $(this).children().slideDown();
+        $(this).children().children().slideDown();
     });
     $(".menu_social").children().mouseleave(function(){
-        $(this).children("span").slideUp();
+        $(this).children().children("span").slideUp();
     });
 });

@@ -15,6 +15,11 @@
 	.menu_social span{
 		display: none;
 	}
+	/* Alto de las secciones "biografia" y "evidencias" */
+	#biografia,
+	#evidencias{
+		min-height: 100vh;
+	}
 }
 /* ==============================================================================================================================================================================================
 ** Estilos para dispositivos Móviles
@@ -29,5 +34,10 @@
 	/* Menu social */
 	.menu_social{
 		padding: 5%;
+	}
+	/* Alto de las secciones "biografia" y "evidencias" */
+	#biografia,
+	#evidencias{
+		min-height: 50vh;
 	}
 }

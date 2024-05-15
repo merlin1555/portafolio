@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Audiowide', cursive;
+	color: white;
+	background-image: url(../img/fondo.png) !important;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+a:hover{
+	color: #000000;
+}
+h1{
+	font-size: 700%;
+}
+h2{
+	font-size: 650%;
+}
+.registro{
+	color: white;
+}
+.registro:hover{
+	color: gold;
+}
+.h2-2{
+	font-size: 300%;
+}
+.caja-centrada{
+	padding: 5% 10%;
+}
+.caja{
+	height: 6.5rem;
+}
+.caja-2{
+	height: 14rem;
+}
+.subtitulo{
+	color: gold;
+}
+.subtitulo-2{
+	color: #515151;	
+}
+.fondo-reloj{
+	background-image: url("../img/opacity.png");
+	border: 1px solid snow;
+}
+.boton-custom{
+	margin: 1% auto;
+	width: 40%;
+}
+.boton-custom:hover{
+	background-color: snow;
+	border-color: #ffffff;
+}
+.boton-custom-2{
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 100%;
+	border-color: white;
+	color: white;
+	margin: 5px;
+}
+.boton-custom-2:hover{
+	border-color: gold;
+	color: gold;
+}

@@ -10,63 +10,77 @@
 	--negro-2: #030202;
 	--negro-3: #1e1e1e;
 	--gris-1: #303030;
-}
-#modo_claro{
-	color: var(--negro-1);
+
+	/* ----------
+	** colores paleta 01 */
+
+	--footer: #080808;
 }
 /* ================================ Modo Oscuro ======================================== */
 /* Estilos para el modo Oscuro */
-body{
-    /*background-color: var(--negro-1);
-	background: linear-gradient(to bottom, #020107 0%, #201b46 100%);*/
-    color: var(--blanco-2);
+main{
+    background: var(--negro-1);
+	color: var(--blanco-2);
 }
-nav{
+
+nav{ /* menu principal */ 
     background-color: var(--negro-1);
     color: var(--blanco-2);
-}
-#banner{
-	background: linear-gradient(to bottom, #020107 0%, #201b46 100%);
-}
-body{
-    background-color: var(--negro-2);
-    color: var(--blanco-2);
-}
-main{
-	background-color: var(--negro-2);
-}
-.menu_principal a{
-    color: var(--blanco-2);
-}
-.menu_principal a::after{
-    background-color: var(--blanco-2);
-}
-nav{
 	box-shadow: 0px 4px 16px rgb(79, 79, 79, 0.2);
 }
-.circles li{
-    background: rgba(255, 255, 255, 0.2);
+.menu_principal a{ /* hover-line effect.css */
+    color: var(--blanco-2);
 }
+.menu_principal a::after{ /* hover-line effect.css */
+    background-color: var(--blanco-2);
+}
+#banner{ /* colores del "cielo" */
+	background: linear-gradient(to bottom, #020107 0%, #201b46 100%);
+}
+/* Botones de las Evidencias */
 .lista_evidencias button{
 	background-color: transparent;
 	border: none;
 }
 .lista_evidencias li,
 .lista_evidencias button,
-.menu_social li{
+.menu_social button,
+.menu_social a{
 	color: var(--gris-1);
+	background-color: transparent;
 }
-.lista_evidencias li:hover,
-.lista_evidencias button:hover,
-.menu_social li:hover{
+#social li:hover,
+.menu_social a:hover,
+.menu_social button:hover,
+.menu_social button:focus{
 	color: var(--blanco-2);
 }
-.caja_desplegable{
-	background-color: var(--negro-3);
+
+.caja_desplegable{ /* Caja Desplegable */ 
+	background-color: var(--footer);
+	color: var(--blanco-1);
 }
-/* Estilos para el modo claro */
-.atardecer{
+#contacto{
+	background-color: var(--negro-1);
+	color: var(--blanco-1);
+}
+#contacto .btn_close{
+	color: white;
+	border: none;
+	margin-left: auto;
+	background-color: transparent;
+}
+/* ================================ Modo Claro ======================================== */
+.atardecer{ /* colores del "cielo" */
 	background: linear-gradient(to bottom, #ff7f50 0%, #ffb6c1 100%) !important;
+}
+.main_claro{
+	background: linear-gradient(to bottom left, #E4E4E4, #D6D6D6) !important;
+    color: #000000 !important;
+}
+.footer_claro{
+	background-color: #CFCFCF !important;
+	color: var(--footer) !important;
 }
 .modo_claro{
     background-color: #ffffff !important;
@@ -82,12 +96,10 @@ nav{
 .modo_claro_sombra{
 	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2) !important;
 }
-.circles_modo_claro{
-    background: rgba(0, 0, 0, 0.2) !important;
-}
 .link_modo_claro{
 	color: #9f9f9f !important;
 }
-.link_modo_claro:hover{
+.link_modo_claro:hover,
+.link_modo_claro:active{
 	color: #000000 !important;
 }
