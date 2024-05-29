@@ -1,0 +1,262 @@
+/* ==============================================================================================================================================================================================
+** Css central para la identidad del sitio
+** by: melrin
+** v2.0
+** @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@400;700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alegreya", serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 200%;
+    font-weight: lighter;
+    text-align: center;
+}
+h2{
+    font-size: 175%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+a{
+    text-decoration: none;
+    transition: all 0.5s;
+}
+body{
+	color: var(--principal);
+}
+main{
+    padding: 15vh 10% 0 10%;
+    min-height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+/* ==============================================================================================================================================================================================
+** Header 
+*/
+header{
+    position: fixed;
+    top: 0;
+    min-height: 10vh;
+    width: 100%;
+    padding: 1em 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.5);
+}
+nav{
+    padding: 0;
+}
+.banner{
+    padding-top: 10vh;
+}
+.banner .carousel-caption{
+    text-transform: uppercase;
+    font-size: 250%;
+    width: 50%;
+    left: 0;
+    bottom: 2em;
+}
+.banner .carousel-caption h2{
+    margin-bottom: 0.5em;
+}
+.banner .carousel-caption a{
+    border: solid 1px;
+    padding: 0.3em;
+}
+.buscador{
+    flex-direction: row;
+    padding: 1em 0 2em 0;
+}
+.titulo_busqueda{
+    padding: 2em;
+}
+.titulo_busqueda span{
+    font-style: italic;
+}
+/* ==============================================================================================================================================================================================
+** Iniciar sesion
+*/
+.iniciar_sesion{
+	display: none;
+	position: absolute;
+	top: 10vh;
+	right: 10%;
+}
+/* ==============================================================================================================================================================================================
+** Cuenta de usuario
+*/
+#cuenta_de_usuario h5{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+#cuenta_de_usuario section{
+    display: flex;
+}
+#cuenta_de_usuario article{
+    width: 50%;
+    margin: 1em;
+}
+#crear_cuenta,
+#login{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+#crear_cuenta div,
+#login div{
+    border: solid 1px;
+    margin: 1em;
+    padding: 1em;
+}
+/* ==============================================================================================================================================================================================
+** Cards del Inicio
+*/
+.listado_recetas{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+}
+.receta_card{
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.contenedor_receta_card_img{
+    position: relative;
+}
+.receta_card img{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.receta_card article{
+    padding: 0.5em;
+    margin: 0.1em;
+    border: solid 1px;
+    height: 100%;
+}
+.contenedor_ver_receta{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ver_receta{
+    position: absolute;
+    display: none;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    padding: 0.5em;
+}
+.ver_receta a{
+    border: solid 1px;
+    padding: 0.2em;
+}
+#recetas_por_categoria h2{
+    text-transform: uppercase;
+}
+/* ==============================================================================================================================================================================================
+** Recetas
+*/
+.receta_unica{
+    padding-top: 10vh;
+}
+.receta_unica article{
+    display: flex;
+    justify-content: space-between;
+}
+.receta_unica .receta_contenedor{
+    width: 48%;
+    padding: 1em;
+}
+.img_receta_contenedor{
+    width: 30%;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.receta_datos{
+    width: 65%;
+}
+.receta_datos h2{
+    margin-right: 1em;
+}
+.receta_datos .porciones{
+    display: flex;
+}
+.receta_datos h1{
+    text-align: start;
+}
+.receta_unica .receta_contenido{
+    border: solid 1px;
+    padding: 1em;
+    height: 100%;
+}
+.img_receta_contenedor img{
+    width: 100%;
+}
+/* ==============================================================================================================================================================================================
+** 404
+*/
+#error_404{
+    padding-top: 10vh;
+}
+#error_404 h1{
+    text-align: start;
+    margin-bottom: 1em;
+}
+/* ==============================================================================================================================================================================================
+** Admin
+*/
+.recetas{
+    width: 100%;
+}
+.recetas img{
+    width: 2em;
+}
+#agregar_receta{
+    padding-top: 20vh;
+}
+#agregar_receta h1{
+    text-align: start;
+    margin-bottom: 0.3em;
+}
+#agregar_receta article{
+    padding: 2em;
+}
+#agregar_receta .agregar_receta_contenido{
+    padding: 2em;
+    border: solid 1px;
+}
+#agregar_receta form{
+    padding: 2em;
+    margin-top: 1em;
+}
+#agregar_receta label{
+    margin-bottom: 0.3em;
+}
+#agregar_receta input,
+#agregar_receta textarea{
+    margin-bottom: 1em;
+}
+#agregar_receta textarea{
+    min-height: 4em;
+}
+#agregar_receta form section{
+    display: flex;
+    justify-content: space-between;
+}
+#agregar_receta form div{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}

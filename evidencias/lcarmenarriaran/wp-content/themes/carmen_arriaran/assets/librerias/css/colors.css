@@ -1,0 +1,129 @@
+/* ===========================================================================================
+ * Custom CSS
+ * Theme: Liceo Carmen Arriaran
+ * CSS for site colors.
+ * by: PlatyWeb
+ * v1.0
+============================================================================================== */
+:root {
+	--rojo_1: #CF2C42;
+	--rojo_2: #CD2C41;
+	--blanco_opaco: #F4F4F4;
+
+	--header: #fff;
+	--header_links: #000;
+
+	--footer: #AC233C;
+	--footer_links: #fff;
+
+	--boton_1: #E40613;
+	--boton_2: #CF5573;
+
+	--body_fondo: rgba(64, 64, 64, 0.7);
+	--body_cuerpo: #fff;
+
+	--mision: rgba(207, 44, 66, 0.8);
+	--vision: rgba(207, 85, 115, 0.8);
+}
+/*	============================================================================================== 
+**	Colores para el Header	======================================================================	*/
+#masthead{
+	background-color: var(--header);
+}
+#masthead a{
+	color: var(--header_links)
+}
+.header_top{
+	background-color: var(--rojo_1);
+	color: white;
+}
+/*	============================================================================================== 
+**	Colores para Body & Main	==================================================================	*/
+body{
+	background-color: var(--body_fondo);
+}
+main{
+	background-color: var(--body_cuerpo);
+}
+.home_page .wp-block-columns div{
+	background-color: var(--mision);
+	color: #fff;
+}
+.home_page .wp-block-columns div:nth-child(2){
+    background-color: var(--vision);
+}
+.noticias_comunicados .the_time{
+	background-color: var(--rojo_1);
+	color: #fff;
+}
+.noticias_comunicados #noticias p,
+.noticias_comunicados #noticias h6{
+    color: black;
+}
+.noticias_comunicados #noticias figure,
+.noticias_comunicados #comunicados figure{
+    box-shadow: -1px 2px 4px 4px rgba(0, 0, 0, 0.2);
+	background-color: var(--blanco_opaco);
+}
+/*	============================================================================================== */
+#contacto{
+	background-color: var(--rojo_2);
+	color: #fff;
+}
+
+#indice_protocolos #indice .rojo_1{
+	color: var(--boton_1);
+	border-color: var(--boton_1);
+}
+
+#indice_protocolos #indice a{
+	color: #000;
+}
+#indice_protocolos #indice figure:hover{
+	background-color: var(--blanco_opaco);
+}
+.wp-block-media-text__content{
+	background-color: var(--footer);
+	color: #fff;
+}
+
+#colegios_dominicanos .wp-block-media-text{
+	background-color: var(--footer);
+}
+#colegios_dominicanos h1{
+	border-bottom: solid 2px var(--footer);
+}
+/*	============================================================================================== 
+**	Colores para el Nav	==========================================================================	*/
+
+/*	============================================================================================== 
+**	Colores para el Footer	======================================================================	*/
+.site-footer{
+	background-color: var(--footer);
+	color: var(--footer_links);
+}
+.site-footer a{
+	color: var(--footer_links);
+}
+/*	============================================================================================== 
+**	Colores para los Links	======================================================================	*/
+
+/*	============================================================================================== 
+**	Colores para los Botones	==================================================================	*/
+#masthead .menu-item-type-custom{
+    background-color: var(--boton_1);
+}
+#masthead .menu-item-type-custom a{
+	color: #fff;
+}
+.btn_custom_2,
+#colegios_dominicanos .wp-block-media-text .wp-block-button__link{
+	background-color: #fff;
+	color: var(--boton_2);
+	border: solid 1px var(--boton_2);
+}
+.btn_custom_2:hover,
+#colegios_dominicanos .wp-block-media-text .wp-block-button__link:hover{
+	background-color: var(--boton_2);
+	color: #fff
+}

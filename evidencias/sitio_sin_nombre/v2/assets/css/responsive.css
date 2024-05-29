@@ -1,0 +1,98 @@
+/* ==============================================================================================================================================================================================
+** Estilos para Escritorio
+** (ancho mayor o igual a 1024px)
+*/
+@media screen and (min-width: 1024px) {
+    #mision_y_vision article{
+        width: 48%;
+    }
+    .team article{
+        width: 30%;
+    }
+    #footer_bot li{
+        margin-left: 2em;
+    }
+    #costumers{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .costumers_container{
+        padding: 5em 4em 1em 4em;
+    }
+    .costumers_bot{
+        padding: 1em 2em 1em 2em;
+    }
+    #about_2 article{
+        width: 48%;
+    }
+    #about_3 article{
+        width: 30%;
+    }
+    .img_container{
+        width: 40%;
+    }
+    .our_services .services{
+        padding-right: 2em;
+    }
+    .services_container{
+        width: 60%;
+    }
+    #our_services .card_service{
+        width: 48%;
+    }
+    #about article{
+        width: 47%;
+    }
+}
+/* ==============================================================================================================================================================================================
+** Estilos para dispositivos Móviles
+** (ancho menor o igual a 1023px)
+*/
+@media screen and (max-width: 1023px) {
+    #about{
+        padding-bottom: 2em;
+    }
+    .team article,
+    #mision_y_vision article{
+        margin-bottom: 2em;
+        width: 100%;
+    }
+    #about,
+    .our_services,
+    .team,
+    #mision_y_vision,
+    #about_2, #about_3{
+        flex-direction: column;
+    }
+    #footer_bot ul{
+        justify-content: space-between;
+    }
+    #costumers .carousel-item{
+        height: 60vh;
+    }
+    .costumers_container{
+        padding: 3em 1em 1em 1em;
+    }
+    .costumers_bot{
+        padding: 1em 1em 1em 1em;
+    }
+    #about_2 article,
+    #about_3 article{
+        width: 100%;
+    }
+    .costumers_container p{
+        font-size: 85%;
+        padding: 1em;
+    }
+    #our_services .card_service{
+        width: 100%;
+    }
+    .img_container{
+        height: 80vh;
+        margin-top: 2em;
+    }
+    .about_img{
+        height: 20vh;
+        margin-top: 2em;
+    }
+}

@@ -1,3 +1,4 @@
+<hr>
 <section id="social">
     <h2 class="fade-in-section">Contacto</h2>
     <ul class="menu_social fade-in-section">

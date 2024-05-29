@@ -20,11 +20,12 @@
 
 
 <!-- Css -->
+<link rel="stylesheet" type="text/css" href="assets/css/estrellas.css">
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 <link rel="stylesheet" type="text/css" href="assets/css/effects.css">
-<link rel="stylesheet" type="text/css" href="assets/css/estrellas.css">
-<link rel="stylesheet" type="text/css" href="assets/css/colors.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colores.css">
+<link rel="stylesheet" type="text/css" href="assets/css/modo_oscuro.css">
 
 <!-- Codigos jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
@@ -46,7 +47,7 @@
 </head>
 <body>
 <header>
-	<?php include("menu.php");?>
+	<?php //include("menu.php");?>
 </header>
 <!-- Banner del sitio -->
-<?php include("banner.php");?>
+<?php //include("banner.php");?>

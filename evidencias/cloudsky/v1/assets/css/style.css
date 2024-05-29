@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 80%;
+	color: #004A82;
+}
+ul{
+	width: inherit !important;
+	margin: 0 !important;
+}
+li{
+	list-style: none !important;		
+}
+a{
+	text-decoration: none !important;	
+	color: #6700CE !important;
+}
+a:hover{
+	color: #004B84 !important;
+}
+img{
+
+}
+.caja_centrada{
+	padding: 0% 5% 0% 5% !important;
+	
+}
+.nav_contact{
+	color: #6700CE !important;
+	border: solid 1px #6700CE !important;
+}
+.nav_custom_1{
+	background-color: #fff !important;
+	color: #6700CE !important;
+	font-size: 80%;	
+}
+.separador{
+	color: #004B84 !important;
+}
+.nav_custom_2{
+	background-color: #6700CE !important;
+	color: #fff !important;
+}
+.nav_custom_2 a{
+	color: #fff !important;
+}
+.nav_custom_2 a:focus{
+	color: #004B84 !important;
+}
+.nav_button{
+	color: #fff !important;
+	border: solid 1px #fff !important;
+}
+.nav_span{
+	color: #fff !important;
+}
+.rrss{
+	display: flex;
+}
+.rrss i{
+	padding-right: 5%;
+	font-size: 200%;	
+}
+.logo{
+	font-size: 250%;
+	display: flex;
+	flex-direction: column;
+}
+.logo a:hover{
+	color: #fff !important;
+}
+
+
+.logo_footer{
+	font-size: 190%;
+	margin-bottom: -20%;
+}
+.footer_footer{
+	background-color: #000;
+}
+.contacto_custom{
+	background-color: #F0F0F0;
+}
+.contacto_custom h5{
+	color: #004B84;
+}
+.contact_box{
+	font-size: 70%;
+	color: #7F7F7F;
+	background-color: #fff;
+	padding: 2%;
+	filter:drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.contact_box h6{
+	font-size: 125%;
+}
+.contact_box p{
+	font-size: 90%;
+}
+.contact_box img{
+	width: 48px !important;
+	height: 48px !important;
+}
+.contact_box_2{
+	font-size: 70%;
+	background-color: #fff;
+}
+.contact_box_2 p{
+	font-size: 110%;
+	color: #004B84;
+}
+.titulo_custom{
+	font-size: 145% !important;
+}
+.imagen_fondo_1{
+	color: #fff;
+	background-image: url("../img/fondo_1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 415px;
+}
+.p_custom_1{
+	font-size: 70%;
+}
+.boton_cotiz{
+	background-color: #FD684F;
+	font-size: 110%;
+	border: none;
+	color: #fff;
+}
+.boton_cotiz a{
+	color: #fff !important;
+}
+.form_viajes{
+	background-color: #6700CE;
+}
+.form_viajes a{
+	color: #fff !important;
+}
+.fondo_2{
+	background-image: url("../img/fondo_2.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #fff;
+}
+.section_quienes{
+	color: #7F7F7F;
+}
+.section_quienes h3{
+	color: #004B84 !important;
+}
+.fondo_3{
+	background-image: url("../img/fondo_3.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.fondo_3 {
+	color: #004B84 !important;
+}
+.barra_custom{
+	background-color: #6700CE;
+	color: #fff;
+}
+.barra_p{
+	margin: 0;
+	font-size: 90%;
+	color: #fff;
+}
+.contenedor_texto{
+	position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto_encima{
+	width: 90%;
+	font-size: 90%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: #fff;
+}
+.texto_encima h3{
+	font-size: 140%;
+}
+.texto_encima h4{
+	font-size: 120%;
+}
+.texto_encima a{
+	color: #fff !important;	
+}
+.tamano_pequeno{
+	font-size: 70%;
+}
+.boton_detalles{
+	margin-top: 10%;
+	background-color: transparent;
+	width: 96%;
+	color: #fff;
+	font-size: 140%;
+	border: solid 1px #fff;
+}
+.head_box{
+	background-color: #004B84;
+	color: #fff !important;
+	filter:drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.box_paquete{
+	border: none;
+	background-color: #fff;
+	filter:drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.fondo_cotiza{
+	background-image: url("../img/fondo_cotiza.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.caja_cotiz{
+	color: #fff !important;
+}
+.color_p{
+	color: #7F7F7F !important;
+}
+.caja_alianza{
+	background-color: #fff;
+	filter:drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.caja_alianza img{
+	width: inherit !important;
+}
+.fondo_alianza{
+	background-image: url("../img/alianza.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.fondo_alianza_2{
+	background-image: url("../img/img_1.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.cuadrado_alianza{
+	background-color: #88BE55;
+	color: #fff;
+	margin-left: -0.30rem !important;
+	margin-top: -0.90rem !important;
+}
+.boton_negro{
+	width: 100%;
+	background-color: #000;
+	border: none;
+	color: #fff;
+}
+.box_top_vuelos{
+	background-color: #004B84;
+	color: #fff !important;
+}
+.boton_vuelos{
+	background-color: #fff;
+	color: #004B84 !important;
+	border: solid 1px #DEDEDE;
+}
+.boton_vuelos:focus{
+	background-color: #004B84;
+	color: #fff !important;
+	border: none;
+}
+.color_viajes{
+	background-color: #FD684F;
+	color: #fff !important;
+}
+.color_equipaje i{
+	color: #88BE55 !important;
+}
+.color_equipaje{
+	color: #88BE55 !important;
+}
+.fondo_vuelos{
+	background-color: #d6d6d6;
+}
+.color_vuelos{
+	color: #484848;
+}
+.box_top_vuelos_2{
+	background-color: #88BE55;
+	color: #fff !important;
+}
+.box_viajes article{
+	margin-right: 0 !important;
+	width: 100% !important;
+}
+.espacio{
+	height: 2rem;
+}
+.nav_tabs:hover{
+	background-color: #000;
+}
+.color_tabs{
+	color: #004B84 !important;
+}
+.boton_tab{
+	background-color: #6700CE;
+	color: #88BE55;
+	border: none;
+}

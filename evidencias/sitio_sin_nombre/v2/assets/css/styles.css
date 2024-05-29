@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Merriweather:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* ================================================================================
+** Estilos Generales
+*/
+/* Estilos para los títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif; /* O cambia a 'Raleway', 'Lora' según tu elección */
+}
+
+/* Estilos para el cuerpo del texto */
+body {
+    font-family: 'Merriweather', sans-serif; /* O cambia a 'Open Sans', 'Merriweather' según tu elección */
+}
+h2{
+    font-size: 180%;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+h3{
+    font-size: 160%;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#about, #our_services, #mision_y_vision, #pricing, #team, #map, #contact, #our_costumers{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#footer_bot{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* ================================================================================
+** Header
+*/
+header{
+    padding: 2% 10%;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 20vh;
+    z-index: 9;
+}
+header a{
+    transition: all 0.5s;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div{
+    justify-content: end;
+}
+.site_logo{
+    font-size: 250%;
+    font-weight: bolder;
+}
+#navbarNavAltMarkup{
+    padding: 1em;
+    border-radius: 0 0 5px 5px;
+}
+/* ================================================================================
+** Banner
+*/
+#site_banner{
+    margin-top: 20vh;
+    height: 80vh;
+    background-image: url("../img/banner/intro.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 5% 20%;
+    text-align: center;
+}
+#site_banner h1{
+    font-size: 200%;
+    margin-bottom: 1em;
+}
+/* ================================================================================
+** About
+*/
+#about{
+    padding-top: 12%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.about_img{
+    background-image: url(../img/banner/intro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#mision_y_vision{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+/* ================================================================================
+** Services
+*/
+#our_services{
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+.our_services{
+    display: flex;
+}
+.our_services h2{
+    width: 100%;
+    margin-bottom: 0;
+}
+.our_services .services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#our_services .card_service{
+    margin-right: 1%;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 2px;
+}
+#our_services h3{
+    font-style: italic;
+}
+.card_logo{
+    margin-bottom: 1em
+}
+.card_logo span{
+    font-size: 200%;
+}
+.img_container{
+    background-image: url(../img/banner/intro.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+/* ================================================================================
+** Team
+*/
+#team{
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 8%;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.team img{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+}
+.team h4{
+    font-size: 150%;
+    margin: 1em 0 0.5em 0;
+}
+.team p{
+    font-style: italic;
+    margin-bottom: 2em;
+}
+#team a{
+    padding: 1em;
+    border-radius: 5px;
+}
+/* ================================================================================
+** map
+*/
+#map{
+    display: flex;
+    margin-bottom: 4em;
+}
+#map iframe{
+    width: 100%;
+    height: 400px;
+}
+/* ================================================================================
+** Footer
+*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+.footer ul,
+#footer_bot ul{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 75%;
+}
+.footer .footer_menu li{
+    margin-right: 1em;
+}
+.footer .rrss li{
+    margin-left: 2em;
+}
+.footer img{
+    width: 2em;
+}
+#footer_bot ul{
+    display: flex;
+    justify-content: end;
+    padding: 1em 0;
+}
+.version_anterior{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.version_anterior #version_anterior i{
+    transform: scaleX(-1);
+}
+.version_anterior a{
+    color: white;
+}
+.version_anterior a:hover{
+    color: purple;
+}
+
+/* ================================================================================
+** Contact
+*/
+#contact{
+    padding-top: 12%;
+    padding-bottom: 8%;
+}
+#contact input,
+#contact textarea{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+#contact h2{
+    font-size: 180%;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+#contact_btn{
+    padding: 0.5em;
+    border-radius: 5px;
+    transition: all 0.5s;
+    width: 20%;
+}
+.contact_form{
+    text-align: center;
+}
+/* ================================================================================
+** costumers
+*/
+#our_costumers{
+    padding-top: 15%;
+    text-align: center;
+}
+#costumers{
+    padding-bottom: 5%;
+}
+#costumers .carousel-caption{
+    min-height: 10vh;
+}
+#costumers .carousel-caption img{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    margin-bottom: -3.5em;
+}
+.costumers_container{
+    height: 30vh;
+    border-radius: 2px 2px 0 0;
+}
+.costumers_container p{
+    font-style: italic;
+}
+.costumers_bot{
+    font-size: 75%;
+    border-radius: 0 0 2px 2px;
+}
+.costumers_bot h5{
+    font-size: 110%;
+    margin-bottom: 0.5em;
+}
+.costumers_bot p{
+    margin-bottom: 0.5em;
+}

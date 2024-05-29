@@ -1,0 +1,62 @@
+/* ==============================================================================================================================================================================================
+** CSS Exclusivo para los colores del sitio
+*/
+:root{
+	--blanco: #fff;
+	--transparencia: rgb(255, 255, 255, 0.75);
+	--bg_kit: #F0F0F0;
+
+	--principal: #26121F;
+	--secundario: #31182a;
+	--secundario_transparente: rgb(49, 24, 42, 0.75);
+	--enfasis: #D99C52;
+	--links: #BF7839;
+	--fuente: #8C593B;
+}
+body{
+	color: var(--enfasis);
+	background: rgb(61,30,52);
+	background: radial-gradient(circle, rgba(61,30,52,1) 0%, rgba(38,18,31,1) 100%);
+}
+a{
+	color: var(--enfasis);
+}
+/* Fondo Blanco*/
+.iniciar_sesion{
+	background-color: var(--blanco);
+}
+/* Fondo Blanco Transparente*/
+.contenedor_ver_receta{
+	background-color: var(--secundario_transparente);
+}
+
+#agregar_receta form{
+	background-color: #160e13;
+}
+/* Fondo "Principal" */
+.titulo_busqueda,
+header,
+.receta_card,
+.receta_unica .img_receta_contenedor,
+.receta_unica .receta_contenedor,
+#cuenta_de_usuario article,
+#agregar_receta article{
+	background-color: var(--principal);
+}
+header a{
+	color: var(--enfasis) !important;
+}
+/*buton*/
+.banner a{
+	background-color: var(--principal);
+}
+.banner a:hover{
+	background-color: transparent;
+	border-color: var(--principal);
+	color: var(--principal);
+}
+.ver_receta a:hover{
+	background-color: var(--enfasis);
+	border-color: var(--enfasis);
+	color: var(--principal);
+}

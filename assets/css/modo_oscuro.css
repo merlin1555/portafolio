@@ -1,0 +1,23 @@
+/* ===================================================================================================================
+** Boton del modo oscuro
+*/
+#modo_oscuro{
+    display: none;
+}
+#modo_oscuro_btn{
+	margin-left: auto;
+	font-size: 150%;
+}
+#modo_oscuro,
+#modo_claro{
+	background-color: transparent;
+	border: none;
+	display: flex;
+	align-items: center;
+}
+#modo_oscuro img{
+	width: 1.5em;
+}
+#modo_claro img{
+	width: 1em;
+}

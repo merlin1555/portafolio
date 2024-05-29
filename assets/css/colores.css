@@ -1,0 +1,28 @@
+/* ==============================================================================================================================================================================================
+** CSS Exclusivo para los colores del sitio
+** "norellana.laboratoriodiseno.cl".
+*/
+:root{
+    /* --------------------
+	** colores paleta 01 */
+	--footer: #080808;
+	--azul:  #195DC1;
+	--magenta: #70326E;
+	--morado: #464696;
+	--graadiente: linear-gradient(to bottom, #195DC1 0%, #70326E 100%);
+}
+#banner{ /* colores del "cielo" */
+	background: linear-gradient(to bottom, #020107 0%, #201b46 100%);
+}
+a{
+    color: var(--magenta);
+}
+a:hover{
+    color: var(--azul);
+}
+body,
+section,
+nav{
+    background-color: black;
+    color: white;
+}

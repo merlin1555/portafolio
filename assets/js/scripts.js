@@ -60,24 +60,6 @@ $(document).ready(function( ){
         $("#modo_oscuro").fadeIn(500);  // Mostrar el boton Sol
 	});
 
-    /* Close button de las cajas de las Evidencias */
-    $(".close_button").click(function(){
-        $(this).parent().parent().parent().removeClass("show");
-    });
-
-    /* Iconos contacto 
-    $(".menu_social").children().mouseenter(function() {
-        // Buscar dentro del botón y seleccionar el span
-        let target = $(this).children("button").children("span");
-        target.slideDown();
-    });
-
-    $(".menu_social").children().mouseleave(function() {
-        // Buscar dentro del botón y seleccionar el span
-        let target = $(this).children("button").children("span");
-        target.slideUp();
-    });*/
-
     /* Iconos contacto */
     $(".menu_social").children().mouseenter(function(){
         $(this).children().children().slideDown();

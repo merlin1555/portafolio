@@ -1,0 +1,185 @@
+/* ==============================================================================================================================================================================================
+** Estilos para Escritorio
+** (ancho mayor o igual a 1024px)
+*/
+@media screen and (min-width: 1024px) {
+    .site_logo{
+        font-size: 300%;
+        font-weight: bold;
+    }
+    main{
+        padding-top: 24vh;
+    }
+    #banner .titulo_del_sitio{
+        width: 30%;
+    }
+    #vuelos{
+        margin-top: -5%;
+    }
+    #vuelos .botones{
+        width: 25%;
+    }
+    #vuelos .formulario{
+        width: 75%;
+    }
+    #vuelos .formulario .orgigen li{
+        width: 48%;
+    }
+    #vuelos .formulario .fechas li{
+        width: 30%;
+    }
+    #vuelos .formulario .mas_opciones{
+        display: flex;
+    }
+    #vuelos .formulario .mas_opciones .mas{
+        width: 40%;
+    }
+    #vuelos .formulario .mas_opciones .buscar{
+        width: 60%;
+    }
+    #vuelos .botones li,
+    #vuelos .botones button{
+        width: 100%;
+        text-align: start;
+    }
+    #vuelos .botones{
+        flex-direction: column;
+    }
+    #vuelos .botones button{
+        padding-left: 5%;
+    }
+    #destinos article,
+    #alianzas article{
+        width: 24%;
+    }
+    #alianzas .destinos_card{
+        width: 24%;
+    }
+    #destinos .precios,
+    #alianzas .precios{
+        display: flex;
+        justify-content: space-between;
+    }
+    #destinos h4,
+    #alianzas h4{
+        margin-top: -10%;
+    }
+    .reviews .cards{
+        width: 24%;
+    }
+    .partners .titulo{
+        width: 20%;
+    }
+    .imgs{
+        width: 80%;
+    }
+    #footer div{
+        width: 30%;
+    }
+    #footer{
+        padding-bottom: 6em;
+    }
+    #footer_bot .rrss{
+        width: 8%;
+    }
+    #quienes_somos article, 
+    #mision_y_vision article{
+        width: 48%;
+    }
+    #banner_asistencia_viaje{
+        margin-top: 4%;
+    }
+}
+/* ==============================================================================================================================================================================================
+** Estilos para dispositivos Móviles
+** (ancho menor o igual a 1023px)
+*/
+@media screen and (max-width: 1023px) {
+    .header_top{
+        display: none;
+    }
+    .site_logo{
+        font-size: 200%;
+        font-weight: bold;
+    }
+    #vuelos{
+        margin-top: -25%;
+    }
+    #vuelos .formulario ul,
+    #vuelos{
+        flex-direction: column;
+    }
+    #vuelos .botones{
+        display: flex;
+        width: 100%;
+        font-size: 75%;
+    }
+    #vuelos .formulario{
+        width: 100%;
+    }
+    #vuelos .formulario .mas_opciones .buscar button{
+        margin-top: 1em;
+    }
+    #destinos article,
+    #alianzas article{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    #alianzas .destinos_card{
+        width: 100%;
+        margin-bottom: 2em;
+        height: 100%;
+    }
+    #destinos h4,
+    #alianzas h4{
+        margin-top: -5%;
+    }
+    .reviews{
+        flex-direction: column;
+    }
+    .reviews .cards{
+        margin-bottom: 1em;
+    }
+    .partners{
+        flex-direction: column;
+    }
+    .partners .titulo,
+    .imgs{
+        width: 100%;
+    }
+    .imgs img{
+        margin-bottom: 1em;
+    }
+    #como_pagar img{
+        width: 20%;
+    }
+    #footer_menu .site_logo{
+        width: 40%;
+        margin-bottom: 1em;
+    }
+    #footer_menu ul{
+        width: 45%;
+        margin-bottom: 2em;
+    }
+    #footer{
+        flex-direction: column;
+        padding-top: 6vh;
+    }
+    #footer div{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    #footer_bot .rrss{
+        width: 20%;
+    }
+    #quienes_somos article, 
+    #mision_y_vision article{
+        width: 100%;
+    }
+    #quienes_somos, #mision_y_vision{
+        flex-direction: column;
+    }
+    #banner_asistencia_viaje{
+        margin-top: -4%;
+    }
+}

@@ -1,0 +1,17 @@
+:root{
+    --color-fondo: rgb(197, 149, 197);
+    --color-navbar: rebeccapurple;
+    --color-tipografia: purple;
+}
+nav.bg-light{
+     background-color: var(--color-navbar) !important;
+}
+
+body{
+    background-color: var(--color-fondo) !important;
+    color: var(--color-tipografia);
+}
+.btn.btn-outline-success {
+    border-color: black;
+    color: black;
+}

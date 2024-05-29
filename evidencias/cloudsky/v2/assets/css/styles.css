@@ -1,0 +1,402 @@
+/* ================================================================================
+** Css central para la identidad del sitio
+** by: melrin
+** v2.0
+*/
+body{
+	transition: all 0.5s;
+}
+section{
+	padding-top: 15vh;
+}
+nav{
+    width: 100%;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	transition: all 0.5s;
+}
+button{
+	border: none !important;
+	transition: all 0.5s;
+}
+/* Margenes principales del sitio */
+.header_top, .menu_principal{
+    padding: 1% 10%;
+}
+#vuelos{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#destinos, #alianzas, #reviews, #partners, #como_pagar, #registro, #mi_cuenta, #quienes_somos, #mision_y_vision{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#footer_menu, #terminos_condiciones, #footer_bot{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#footer{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+/* ================================================================================
+** Header Top - Barra superior de "contacto"
+*/
+header{
+    position: fixed;
+    width: 100%;
+}
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 80%;
+}
+.header_top ul{
+    display: flex;
+    align-items: center;
+}
+.header_top .contacto{
+    width: 45%;
+}
+.header_top .contacto li{
+    margin-right: 1em;
+}
+.header_top .links{
+    width: 25%;
+    justify-content: space-around;
+}
+.header_top .usuario{
+    width: 22%;
+    justify-content: center;
+}
+#footer_bot .rrss{
+    width: 8%;
+    justify-content: space-between;
+}
+.header_top i{
+    margin: 0 0.3em;
+}
+/* ================================================================================
+** Menú Principal del sitio
+*/
+.menu_principal{
+    display: flex;
+    align-items: center;
+}
+.menu_navbar{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+.menu_navbar a{
+    margin-left: 2em;
+}
+/* ================================================================================
+** Banner
+*/
+#banner{
+    background-image: url(../img/banner/fondo_1.png);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+#banner .titulo_del_sitio .precio h2{
+    margin-bottom: 0;
+    font-size: 270%;
+}
+#banner .titulo_del_sitio .precio,
+#alianzas .precio{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+#banner .titulo_del_sitio .precio .desde,
+#alianzas .precio .desde{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5em;
+}
+#banner .titulo_del_sitio a{
+    font-weight: bold;
+    padding: 1%;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+/* ================================================================================
+** Banner
+*/
+#vuelos{
+    display: flex;
+    padding: 0;
+}
+#vuelos p{
+    margin-bottom: 0;
+}
+#vuelos .formulario{
+    padding: 2%;
+}
+#vuelos .formulario ul{
+    display: flex;
+    justify-content: space-between;
+}
+#vuelos .formulario .checks{
+    width: 100%;
+    padding: 2% 0;
+}
+#vuelos .formulario .mas_opciones{
+    margin-top: 2em;
+}
+#vuelos .formulario .mas_opciones .buscar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#vuelos .formulario .mas_opciones .buscar button{
+    width: 100%;
+    padding: 1%;
+}
+#vuelos .formulario .mas_opciones .mas{
+    flex-direction: column;
+    justify-content: start;
+}
+#vuelos .formulario .mas_opciones .mas button{
+    text-align: start;
+}
+#vuelos .formulario .mas_opciones .mas li,
+#vuelos .formulario .mas_opciones .mas li button{
+    width: 100%;
+}
+#vuelos .botones{
+    display: flex;
+    justify-content: space-between;
+}
+#vuelos .botones li,
+#vuelos .botones li button{
+    height: 100% !important;
+}
+/* ================================================================================
+** Destiino
+*/
+#destinos article,
+#alianzas article{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+#destinos .card_img{
+    background-image: url(../img/cards/img_1.png);
+    background-position: center;
+    background-size: cover;
+    height: 234px;
+}
+#alianzas .card_img_2{
+    background-image: url(../img/cards/alianza.png);
+    background-position: center;
+    background-size: cover;
+    height: 234px;
+}
+#destinos .precios,
+#alianzas .precios{
+    margin-top: 2em;
+}
+#destinos p,
+#alianzas p{
+    margin-bottom: 0.3em;
+}
+#alianzas h5,
+#alianzas .desde,
+#destinos .desde,
+#destinos .oferta{
+    margin-left: 0.4em;
+}
+#alianzas h5{
+    padding-right: 0.4em;
+}
+#destinos h4,
+#alianzas h4{
+    padding: 0.3em;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: -2%;
+}
+#destinos .boton,
+#alianzas .boton{
+    padding: 0.4em;
+}
+#destinos button,
+#alianzas button{
+    width: 100%;
+    border-radius: 5px;
+}
+#alianzas .destinos_card h3{
+    margin: 0 0 0.5em 0;
+}
+/* ================================================================================
+** Reviews
+*/
+#reviews{
+    margin-top: 4em;
+}
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0 0 0;
+}
+.reviews .cards{
+    font-size: 65%;
+    padding: 1em;
+    border-radius: 5px;
+}
+.reviews .cards_content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.reviews .titulo{
+    padding-left: 5%;
+}
+.reviews h6,
+.reviews p{
+    margin-bottom: 0;
+}
+.reviews h6{
+    font-weight: bolder;
+}
+/*partners*/
+#partners{
+    padding-top: 4em;
+}
+#como_pagar{
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+.partners{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    border-radius: 5px;
+}
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 2em;
+}
+/*footer menu*/
+#footer_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    flex-wrap: wrap;
+}
+#footer_menu .site_logo{
+    width: 15%;
+}
+#footer_menu .site_logo{
+    display: flex;
+    flex-direction: column;
+}
+/*footer*/
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+#footer div{
+    height: auto;
+}
+#footer ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#terminos_condiciones{
+    padding: 3%;
+    text-align: center;
+}
+#footer_bot{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+#footer_bot .rrss{
+    display: flex;
+    justify-content: space-between;
+}
+#footer h5,
+#footer h6{
+    text-transform: uppercase;
+}
+/* ================================================================================
+** registro
+*/
+#crear_cuenta{
+    padding-top: 35vh;
+}
+#registro{
+    display: flex;
+    flex-direction: column;
+}
+#registro span{
+    margin-bottom: 1em;
+}
+/* ================================================================================
+** mision y vision
+*/
+#quienes_somos, #mision_y_vision{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#quienes_somos .img_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#quienes_somos .titulo{
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* ================================================================================
+** asistencia_viaje
+*/
+#asistencia_viaje{
+    padding-top: 0;
+}
+.asistencia_viaje{
+    align-items: start;
+    padding-top: 2em;
+}
+#asistencia_viaje img{
+    width: 100%;
+    margin-bottom: 2em;
+}
+#banner_asistencia_viaje{
+    height: 48vh;
+    background-image: url(../img/banner/banner_2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#asistencia_viaje h2{
+    margin-bottom: 1em;
+}

@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.form{
+    display:flex;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(229, 215, 241);
+    color: black;
+}
+
+.container {
+    padding-top: 4rem;
+}
+
+body {
+    background-color: rgb(229, 215, 241);
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    color: blueviolet;
+}

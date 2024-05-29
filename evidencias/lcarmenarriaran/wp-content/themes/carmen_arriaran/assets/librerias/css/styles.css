@@ -1,0 +1,442 @@
+/* ===========================================================================================
+ * Custom CSS
+ * Theme: Liceo Carmen Arriaran
+ * CSS for site style.
+ * by: PlatyWeb
+ * v1.0
+============================================================================================== */
+
+/*	============================================================================================== 
+**	Estilos para el Header	======================================================================	*/
+.header_top ul{
+    display: flex;
+    padding: 0.5em 0;
+}
+.header_top li{
+    margin-right: 1em;
+}
+#masthead{
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+    position: fixed;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); 
+    width: 100%;
+}
+/*	============================================================================================== 
+**	Estilos para el Nav	==========================================================================	*/
+#masthead #primary-menu{
+    width: 100%;
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#masthead .container-fluid,
+#masthead .navbar{
+    padding: 0 !important;
+}
+#navbarNavDropdown{
+    padding-right: 5%;
+    justify-content: end;
+    width: 100%;
+}
+#primary-menu li{
+    margin-left: 1em;
+}
+/*	============================================================================================== 
+**	Estilos para Body & Main	==================================================================	*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.post,
+.page{
+    margin: 0;
+}
+.site-main{
+    margin-top: 3vh;
+}
+
+.home_page .wp-block-columns div{
+	width: 33%;
+    text-align: center;
+    padding: 1em;
+}
+.home_page .wp-block-columns ul{
+    margin: 0;
+    padding: 0;
+}
+.home_page h2{
+    text-align: center;
+}
+/*	============================================================================================== 
+**	Estilos para noticias y comunicados	==========================================================	*/
+.noticias_comunicados #noticias i{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 0.5em;
+    font-size: 80%;
+    margin-right: 0.5em;
+}
+.noticias_comunicados #noticias h6,
+.noticias_comunicados #noticias p,
+.noticias_comunicados #comunicados h4,
+.noticias_comunicados #comunicados p,
+.noticias_comunicados #comunicados .btn_custom_2{
+    margin-left: 1em;
+}
+.noticias_comunicados #comunicados h4{
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+}
+.noticias_comunicados #noticias p{
+    margin-bottom: 0;
+}
+.noticias_comunicados #noticias h6{
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.noticias_comunicados #noticias figure{
+    display: flex;
+    border-radius: 10px 10px 10px 0;
+    align-items: center;
+    padding-right: 1em;
+}
+.noticias_comunicados .the_time{
+    border-radius: 10px 0 0 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.noticias_comunicados #comunicados .the_time{
+    position: absolute;
+}
+.noticias_comunicados #comunicados figure{
+    border-radius: 10px;
+    padding-bottom: 1em;
+}
+.noticias_comunicados #comunicados p{
+    display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.noticias_comunicados #comunicados img{
+    border-radius: 10px 10px 0 0;
+}
+/*	============================================================================================== */
+#jornadas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#jornadas figure{
+    width: 40%;
+}
+#jornadas figure div{
+    width: 34%;
+    height: 100%;
+    position: absolute;
+}
+#contacto{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+#contacto i{
+    margin-right: 1em;
+}
+#indice_protocolos #indice figure{
+    border-radius: 15px;
+    padding: 1em;
+}
+#indice_protocolos #indice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 6em 0;
+}
+#descargar_protocolo #protocolos{
+    margin: 6em 0;
+}
+#descargar_protocolo #protocolos figure{
+    margin: 3em 0;
+}
+.botones_download{
+    display: flex;
+}
+.botones_download h6{
+    margin-right: 1em;
+}
+#nosotros .wp-block-media-text__content{
+    height: 100%;
+    display: grid;
+    align-content: center;
+}
+
+#nosotros .wp-block-image img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nosotros .wp-block-gallery{
+    margin-bottom: 4em;
+}
+#nosotros .wp-block-heading{
+    margin-top: 2em;
+}
+#nosotros .wp-block-quote{
+    margin: 2em 0;
+    padding: 0 2em;
+}
+#reglamento{
+    padding-top: 10vh;
+}
+#reglamento h2{
+    text-align: center;
+}
+#colegios_dominicanos{
+    padding-top: 5em;
+}
+#colegios_dominicanos h1{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+
+/*	============================================================================================== 
+**	Estilos para el Banner (Moviles)	==========================================================	*/
+#site_banner{
+    background-image: url("../../img/banner_bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+}
+/*	============================================================================================== 
+**	Estilos para el Footer	======================================================================	*/
+footer .site-info{
+    display: flex;
+    justify-content: space-around;
+}
+.footer_links{
+    display: grid;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 2em;
+    padding: 0;
+}
+#logo_1{
+    background-image: url("../../img/logo_1.png");
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+#logo_2{
+    background-image: url("../../img/logo_2.png");
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 120px;
+}
+/*	============================================================================================== 
+**	Estilos para los Links	======================================================================	*/
+
+/*	============================================================================================== 
+**	Estilos para los Botones	==================================================================	*/
+#masthead .menu-item-type-custom{
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.btn_custom_2{
+    border-radius: 20px;
+    padding: 0.2em 0.5em;
+    transition: all 0.5s;
+}
+
+/*	============================================================================================== 
+**	(@Media para Escritorio)	==================================================================	*/
+@media screen and (min-width: 991px) {
+    /* Márgenes para la estructura del sitio (Escritorio) */
+    .site-footer{
+        padding: 3em;
+    }
+    main{
+        margin: 0 3em;
+        padding: 2em;
+        min-height: 60vh;
+    }
+    .site-branding{
+        width: 50em;
+    }
+    /*	============================================================================================== 
+    **	Estilos para noticias y comunicados	==========================================================	*/
+    #noticias_comunicados{
+        padding-top: 2em;
+    }
+    #noticias_comunicados h2{
+        margin-bottom: 1em;
+    }
+    .noticias_comunicados{
+        display: flex;
+        justify-content: space-around;
+    }
+    .noticias_comunicados #noticias{
+        width: 30%;
+    }
+    .noticias_comunicados #comunicados{
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home_page .wp-block-columns{
+        gap: 0;
+        margin-left: -2em;
+        margin-right: -2em;
+        margin-top: -5em;
+    }
+    .noticias_comunicados #comunicados figure{
+        width: 48%;
+    }
+    /*	============================================================================================== */
+    #conocenos{
+        padding-top: 3em;
+    }
+    #conocenos h2{
+        margin-bottom: 1em;
+    }
+    #nosotros .wp-block-image img{
+        width: 30% !important;
+    }
+    #nosotros .wp-block-media-text{
+        margin-left: -5em !important;
+        margin-right: -5em !important;
+        margin-top: -2em !important;
+    }
+    /*	============================================================================================== */
+    #map{
+        padding-top: 4em;
+        margin-left: -2em;
+        margin-right: -2em;
+        display: flex;
+    }
+    #contacto{
+        width: 50%;
+    }
+    #contacto i{
+        font-size: 125%;
+    }
+    #protocolos{
+        padding: 2em;
+    }
+    #indice_protocolos #indice figure{
+        width: 30%;
+    }
+    #reglamento iframe{
+        height: 700px;
+    }
+    #colegios_dominicanos .wp-block-media-text{
+        padding: 5em;
+        margin-left: -5em;
+        margin-right: -5em;
+        margin-bottom: 5em;
+    }
+    /*	============================================================================================== 
+    **	Estilos para el Banner (Escritorio)	==========================================================	*/
+    #site_banner{
+        height: 65vh;
+        margin-right: -5em;
+        margin-left: -5em;
+    }
+    /*	============================================================================================== 
+    **	Estilos para el Footer (Escritorio)	==========================================================	*/
+    footer .site-info{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footer_links{
+        width: 30%;
+    }
+}
+/*	============================================================================================== 
+**	(@Media para Moviles)	======================================================================	*/
+@media screen and (max-width: 990px) {
+    /* Márgenes para la estructura del sitio (Moviles) */
+    .site-footer{
+        padding: 2em 1em;
+    }
+    .home_page .entry-content{
+        margin: 0;
+    }
+    /*	============================================================================================== 
+    **	Estilos para noticias y comunicados	==========================================================	*/
+    #noticias,
+    #comunicados{
+        padding: 0 1em;
+    }
+    .home_page .wp-block-columns div{
+        margin-bottom: -2.74em;
+        font-size: 75%;
+    }
+    #noticias_comunicados{
+        padding-top: 4em;
+    }
+    #reglamento iframe{
+        height: 400px;
+    }
+    /*	============================================================================================== */
+    #conocenos{
+        padding-top: 3em;
+    }
+    #conocenos h2{
+        margin-bottom: 1em;
+    }
+    #protocolos{
+        padding: 1em;
+    }
+    #indice_protocolos #indice figure{
+        width: 100%;
+        min-height: 6em;
+    }
+    #nosotros .wp-block-image img{
+        width: 70% !important;
+    }
+    #colegios_dominicanos .wp-block-media-text__content{
+        padding: 2em;
+    }
+    #colegios_dominicanos .wp-block-media-text{
+        margin-bottom: 3em;
+    }
+    /*	============================================================================================== 
+    **	Estilos para el Banner (Moviles)	==========================================================	*/
+    #site_banner{
+        height: 10em;
+    }
+    /*	============================================================================================== 
+    **	Estilos para el Footer (Moviles)	==========================================================	*/
+    footer .site-info{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footer_links{
+        width: 40%;
+        font-size: 80%;
+        margin-right: 1em;
+    }
+}

@@ -1,0 +1,12 @@
+/* ================================ Fade In effect ======================================== */
+.fade-in-section {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.fade-in-section.fade-in{
+    opacity: 1;
+}
+.frosted-glass {
+    backdrop-filter: blur(20px);
+}

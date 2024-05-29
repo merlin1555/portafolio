@@ -1,0 +1,186 @@
+/* ==============================================================================================================================================================================================
+** Css para los colores
+** by: melrin
+** v2.0
+*/
+:root{
+    --color_principal: #6700CE;
+    --principal_dark: #3F007E;
+    --titulos: #004B84;
+    --secundario: #7F7F7F;
+    --enfasis: #0066B4;
+    --verde: #88BE55;
+    --boton_1: #FD684F;
+    --bg-kit: #F0F0F0;
+}
+/* header top */
+.header_top{
+    color: var(--color_principal);
+    background-color: white;
+}
+.header_top a,
+.header_top button{
+    color: var(--color_principal);
+    background-color: transparent;
+}
+.header_top a:hover,
+.header_top button:hover{
+    color: var(--enfasis);
+}
+/* navbar */
+.menu_principal{
+    background-color: var(--color_principal);
+}
+.menu_principal a,
+#banner_asistencia_viaje{
+    color: white;
+}
+.menu_principal a:hover{
+    color: var(--principal_dark)
+}
+/* banner */
+#banner{
+    color: white;
+}
+#banner .titulo_del_sitio a{
+    color: white;
+    background-color: var(--boton_1);
+    border: solid 1px var(--boton_1) !important;
+}
+#banner .titulo_del_sitio a:hover{
+    color: var(--boton_1);
+    background-color: white;
+    border: solid 1px var(--boton_1) !important;
+}
+/* vuelos */
+#vuelos .formulario{
+    background-color: var(--color_principal);
+    color: white;
+}
+#vuelos .botones a{
+    background-color: transparent;
+    color: white;
+}
+#vuelos .botones button{
+    background-color: var(--principal_dark);
+    color: white;
+}
+#vuelos .botones li:nth-child(1) button{
+    background-color: black;
+}
+#vuelos .botones button:hover{
+    background-color: black;
+}
+#vuelos .formulario .mas_opciones .buscar button{
+    background-color: black;
+    color: white;
+}
+#vuelos .formulario .mas_opciones .buscar button:hover{
+    background-color: var(--principal_dark);
+}
+#vuelos .formulario .mas_opciones .mas button{
+    color: var(--verde);
+    background-color: transparent;
+}
+#vuelos .formulario .mas_opciones .mas button:hover{
+    color: var(--principal_dark);
+}
+#destinos{
+    font-weight: bold;
+}
+#alianzas{
+    font-weight: lighter;
+}
+#destinos .desde,
+#alianzas .desde{
+    color: var(--verde);
+}
+.iniciar_sesion,
+#destinos,
+#alianzas,
+.partners .titulo,
+#registro label,
+#registro h2,
+#destinos h2,
+#alianzas h2,
+#reviews h3,
+#quienes_somos h2,
+#mision_y_vision h3{
+    color: var(--titulos);
+}
+#destinos h4,
+#alianzas h4{
+    background-color: var(--verde);
+    color: white;
+}
+#destinos button,
+#alianzas button{
+    background-color: var(--boton_1);
+    color: white;
+    border: solid 1px var(--boton_1) !important;
+}
+#destinos button:hover,
+#alianzas button:hover{
+    background-color: white;
+    color: var(--boton_1);
+    border: solid 1px var(--boton_1) !important;
+}
+#alianzas .desde{
+    color: var(--titulos) !important;
+}
+#alianzas .destinos_card p,
+#quienes_somos p,
+#mision_y_vision p{
+    color: var(--secundario);
+}
+
+/* reviews */
+#reviews, #partners, #como_pagar{
+    background-color: #F0F0F0;
+}
+.reviews .cards{
+    background-color: white;
+    color: var(--secundario);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.partners{
+    background-color: white;
+}
+/*footer_menu*/
+#footer_menu{
+    background-color: var(--color_principal);
+    color: white;
+}
+#footer_menu a{
+    color: white;
+}
+/*footer*/
+#footer{
+    border-top: solid 2px var(--titulos);
+    border-bottom: solid 2px var(--titulos);
+}
+footer, #terminos_condiciones{
+    background-color: var(--color_principal);
+    color: white;
+}
+#terminos_condiciones a{
+    color: white;
+}
+#footer_bot{
+    background-color: black;
+}
+#footer_bot .rrss a{
+    color: white;
+}
+/*modales*/
+.registrarse,
+.iniciar_sesion{
+    background-color: var(--bg-kit);
+}
+.iniciar_sesion span,
+#registro span{
+    color: darkred;
+}
+.iniciar_sesion{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}

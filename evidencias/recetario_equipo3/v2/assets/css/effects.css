@@ -1,0 +1,21 @@
+/* ==============================================================================================================================================================================================
+** Css exclusivo para efectos especiales del sitio
+** by: melrin
+** v2.0
+*/
+.version_anterior{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.version_anterior #version_anterior i{
+    transform: scaleX(-1);
+}
+.version_anterior a{
+    color: white;
+	transition: all 0.5s;
+}
+.version_anterior a:hover{
+    color: purple;
+}

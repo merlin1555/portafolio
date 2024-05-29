@@ -1,0 +1,97 @@
+:root{
+    --principal: #0EBFDD;
+    --enfasis: #32556D;
+    --footer: #45494D;
+    --fuente: #7E858F;
+    --gris_claro: #c4c9cf;
+    --blanco: #fff;
+    --bg-kit: #F0F0F0;
+}
+header{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.costumers_container,
+.costumers_bot{
+    background-color: var(--blanco);
+    color: var(--fuente);
+}
+.costumers_container,
+.costumers_bot{
+    border: solid 1px var(--gris_claro);
+}
+.costumers_container{
+    border-top: solid 12px var(--enfasis) !important;
+    border-bottom: 0 !important;
+}
+.costumers_bot h5{
+    color: var(--footer);
+    font-weight: bolder;
+}
+header a{
+    color: var(--fuente) !important;
+}
+header a:hover{
+    color: var(--enfasis) !important;
+}
+#site_banner{
+    color: var(--blanco);
+}
+h2, h3{
+    color: var(--enfasis);
+}
+#team{
+    background-color: var(--principal);
+    color: var(--blanco);
+}
+#team h2{
+    color: var(--blanco);
+}
+#team a{
+    background-color: transparent;
+    border: solid 1px var(--blanco);
+    color: var(--blanco);
+}
+#team a:hover{
+    background-color: var(--blanco);
+    color: var(--principal);
+}
+footer{
+    background-color: var(--footer);
+    color: var(--blanco);
+}
+.footer{
+    border-bottom: solid 1px var(--blanco);
+}
+footer a{
+    color: var(--blanco);
+}
+#contact input,
+#contact textarea{
+    border: solid 1px var(--fuente);
+}
+#contact_btn{
+    background-color: var(--enfasis);
+    color: var(--blanco);
+    border: solid 1px var(--enfasis) !important;
+}
+#contact_btn:hover{
+    background-color: var(--blanco);
+    color: var(--enfasis);
+    border: solid 1px var(--enfasis) !important;
+}
+#about,
+#mision_y_vision,
+#map article,
+#costumers,
+#our_costumers{
+    background-color: var(--bg-kit);
+}
+.card_logo span{
+    color: var(--enfasis);
+}
+#our_services .card_service{
+    border: solid 1px var(--gris_claro);
+}
+#our_services .card_service p{
+    color: var(--fuente);
+}

@@ -1,0 +1,24 @@
+/* ==============================================================================================================================================================================================
+** Estilos para Escritorio
+** (ancho mayor o igual a 1024px)
+*/
+@media screen and (min-width: 1024px) {
+    .receta_card{
+        width: 15%;
+    }
+}
+/* ==============================================================================================================================================================================================
+** Estilos para dispositivos Móviles
+** (ancho menor o igual a 1023px)
+*/
+@media screen and (max-width: 1023px) {
+    .banner{
+        display: none;
+    }
+    .listado_recetas{
+        flex-direction: column;
+    }
+    .receta_card{
+        width: 100%;
+    }
+}

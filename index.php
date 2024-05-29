@@ -3,15 +3,15 @@
 
 <main>
 <!-- Biografia -->
-<?php include("biografia.php");?>
+<?php //include("biografia.php");?>
 
 <!-- Evidencias -->
-<?php include("evidencias.php");?>
+<?php include("proyectos.php");?>
 
 <!-- Contacto -->
-<?php include("social.php");?>
+<?php //include("social.php");?>
 
-<?php include("contacto.php");?>
+<?php //include("contacto.php");?>
 
 </main>
 <!-- Footer -->

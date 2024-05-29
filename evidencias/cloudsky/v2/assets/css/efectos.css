@@ -1,0 +1,21 @@
+
+/*.iniciar_sesion{
+    display: none;
+}*/
+.registrarse,
+.iniciar_sesion{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    z-index: 1;
+    padding: 1em;
+    border-radius: 0 0 5px 5px;
+    display: none;
+}
+.iniciar_sesion span{
+    margin-bottom: 1em;
+}
+.close_button{
+    margin-left: 90%;
+    padding: 0;
+}
